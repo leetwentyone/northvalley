@@ -74,7 +74,6 @@ jQuery(function($){
     speed: 900,
     slidesToShow: 1,
     slidesToScroll: 1,
-    draggable: true,
   });
 });
 
