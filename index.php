@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?>
 
-    <main class="site-content body-home">
+    <main class="site-content body-home" id="top">
 
         <div class="hero">
 
@@ -12,8 +12,8 @@
             <div class="hero-overlay">
                 <div class="overlay-content">
                     <p>North Valley Forge</p>
-                    <h1>UK's premier Electric<br>Gate Specialist</h1>
-                    <a href="#">Explore Our Iron Gates</a>
+                    <h1>UK's premier Electric <br>Gate Specialist</h1>
+                    <a href="#" class="orange-solid">Explore Our Iron Gates</a>
                 </div>
             </div><!-- end hero overlay -->
 
