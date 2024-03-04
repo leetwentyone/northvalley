@@ -360,6 +360,8 @@
                     <li><img src="images/component-placeholder-square.jpg"></li>
                 </ul>
 
+                <a href="#" class="orange-solid">Follow Us</a>
+
             </div>
 
         </div><!-- end instagram feed -->
