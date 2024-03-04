@@ -1,0 +1,86 @@
+nav.primary {
+    display: none;
+    background-color: $lightgrey;
+
+    @include breakpoint(laptop) {
+        display: block;
+    }
+
+    ul {
+        &:not(.sub-menu) {
+            display: flex;
+            position: relative;
+            justify-content: space-evenly;
+            @extend .c-container;
+            padding-left: 0;
+            z-index: 100;
+        }
+    }
+
+    li {
+        &:not(.sub-menu li) {
+            display: inline-block;
+            position: relative;
+            flex: 1;
+
+            &:not(:first-of-type) {
+                border-left: 1px solid $midgrey;
+            }
+
+            &:hover {
+                .sub-menu {
+                    left: auto;
+                }
+            }
+        }
+    }
+
+    .sub-menu {
+        position: absolute;
+        left: -9999px;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        background-color: #f9f9f9;
+
+        li {
+            display: block;
+            width: 100%;
+
+            &:not(:last-of-type) {
+                border-bottom: 1px solid #ddd;
+            }
+
+            a {
+                padding: 15px;
+                justify-content: flex-start;
+                text-align: left;
+            }
+        }
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $lightgrey;
+        transition: all .3s ease;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        color: $darkgrey;
+        font-size: 11px;
+        line-height: 11px;
+
+        @include breakpoint(xldesktop) {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        &:hover {
+            background-color: $darkgrey;
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}

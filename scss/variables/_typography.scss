@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'silka_monoregular';
+    src: url('fonts/silkamono-regular-webfont.eot');
+    src: url('fonts/silkamono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/silkamono-regular-webfont.woff2') format('woff2'),
+         url('fonts/silkamono-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'argesta_displayregular';
+    src: url('fonts/argestadisplay-regular-webfont.eot');
+    src: url('fonts/argestadisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/argestadisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/argestadisplay-regular-webfont.woff') format('woff'),
+         url('fonts/argestadisplay-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'argesta_displayregular_italic';
+    src: url('fonts/argestadisplay-regularitalic-webfont.eot');
+    src: url('fonts/argestadisplay-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/argestadisplay-regularitalic-webfont.woff2') format('woff2'),
+         url('fonts/argestadisplay-regularitalic-webfont.woff') format('woff'),
+         url('fonts/argestadisplay-regularitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$global-font : sans-serif;
+$silka : 'silka_monoregular';
+$argesta : 'argesta_displayregular','serif';
+$argesta-italic : 'argesta_displayregular_italic','serif';
