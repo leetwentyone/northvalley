@@ -22,7 +22,45 @@
   <header class="site-header">
     <div class="header-inner">
 
-      Header
+      <ul class="mob-actions">
+        <li><a href="tel:01282677300">Call Us: 01282 677300</a></li>
+        <li><a href="#">Make An Enquiry</a></li>
+      </ul>
+
+      <div class="site-logo">
+        logo
+      </div><!-- end site logo -->
+
+      <ul class="mob-links">
+        <li><a href="#" class="search-toggle"><img src="images/search-white.png"></a></li>
+        <li><a href="#" class="menu-toggle"><img src="images/menu-white.png">Menu</a></li>
+      </ul>
+
+      <div class="header-actions">
+
+        <div class="top-links">
+          <a href="#">Request A Brochure</a>
+          <a href="#">Visit Our Showroom</a>
+          <a href="tel:01282677300">01282 677300</a>
+          <a href="#">Make An Enquiry</a>
+        </div>
+
+        <div class="header-navigation">
+          <ul>
+            <li><a href="#">Wrought Iron Gates</a></li>
+            <li><a href="#">Aluminium Gates</a></li>
+            <li><a href="#">Privacy Gates</a></li>
+            <li><a href="#">Railings</a></li>
+            <li><a href="#">Balustrades &amp; Staircases</a></li>
+            <li><a href="#">New Installs</a></li>
+          </ul>
+          <ul>
+            <li><a href="#" class="search-toggle"><img src="images/search-white.png"></a></li>
+            <li><a href="#" class="menu-toggle"><img src="images/menu-white.png"></a></li>
+          </ul>
+        </div>
+
+      </div><!-- end header actions -->
 
     </div>
   </header>
