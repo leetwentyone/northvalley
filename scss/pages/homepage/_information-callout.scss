@@ -1,0 +1,33 @@
+.information-callout {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($darkblue,.5);
+    }
+
+    .callout-heading,
+    p,
+    a {
+        position: relative;
+        color: $white;
+    }
+
+    a {
+        + a {
+            margin-left: 20px;
+        }
+    }
+}

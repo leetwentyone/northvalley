@@ -1,0 +1,110 @@
+.collection-grid {
+    padding: 10px;
+
+    .c-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            flex-direction: row;
+        }
+    }
+
+    .col-large {
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            width: 70%;
+        }
+
+        img {
+
+            &:not(.slider-nav img) {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .slider-nav {
+            right: 20px;
+            bottom: 20px;
+        }
+    }
+
+    .col-slim {
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            width: 30%;
+            margin-left: 10px;
+        }
+
+        ul {
+
+            @include breakpoint(tablet) {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        li {
+            height: 100%;
+            position: relative;
+
+            &:not(:last-of-type) {
+                margin-bottom: 10px;
+            }
+        
+            h4 {
+                &:not(.collection-overlay h4) {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 20px;
+                    margin-bottom: 0;
+                    color: $white;
+                    transition: all .3s ease;
+                    opacity: 1;
+                    z-index: 5;
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+            }
+
+            &:hover {
+
+                h4 {
+                    &:not(.collection-overlay h4) {
+                        opacity: 0;
+                    }
+                }
+
+                .collection-overlay {
+
+                    h4,a {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .collection-overlay {
+            padding-bottom: 20px;
+            padding-left: 20px;
+
+            h4 {
+                font-size: 22px;
+                line-height: 28px;
+            }
+        }
+    }
+}

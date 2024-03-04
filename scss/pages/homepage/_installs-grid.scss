@@ -1,0 +1,106 @@
+.installs-grid {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 60px;
+
+    @include breakpoint(tablet) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    h4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .single-image {
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            width: 49.4%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .multiple-images {
+        width: 100%;
+
+        @include breakpoint(tablet) {
+            display: flex;
+            flex-flow: row wrap;
+            width: 50%;
+            margin-right: 10px;
+            height: 100%;
+        }
+
+        li {
+            width: 100%;
+            height: 100%;
+            list-style: none;
+            position: relative;
+            margin-bottom: 10px;
+
+            @include breakpoint(tablet) {
+                width: 49.5%;
+                margin-right: 1%;
+                margin-bottom: 10px;
+
+                &:nth-of-type(2n) {
+                    margin-right: 0;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                &:nth-last-child(2) {
+                    margin-bottom: 0;
+                }
+            }
+
+            a {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                background-color: rgba($darkblue,0);
+                background-image: url('images/enlarge.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 30px;
+                transition: all .3s ease;
+            }
+
+            &:hover {
+
+                a {
+                    opacity: 1;
+                    background-color: rgba($darkblue, .7);
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.install-btn {
+    text-align: center;
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+}
