@@ -1,0 +1,51 @@
+.hero {
+    position: relative;
+    width: 100%;
+
+    picture,
+    img {
+        width: 100%;
+    }
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($darkblue,.4);
+}
+
+.overlay-content {
+    @extend .c-container;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+
+    p {
+        margin-bottom: 0;
+        text-transform: uppercase;
+        color: $white;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    h1 {
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        color: $white;
+        text-transform: capitalize;
+    }
+
+    a {
+        background-color: $orange;
+        color: $white;
+        padding: 20px 30px;
+        font-weight: 600;
+    }
+}

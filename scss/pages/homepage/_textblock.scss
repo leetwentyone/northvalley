@@ -1,0 +1,42 @@
+.textblock {
+    padding: 60px 20px;
+    text-align: center;
+
+    h1 {
+        width: 100%;
+        text-align: center;
+
+        @include breakpoint(tablet) {
+            max-width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+   p {
+        width: 100%;
+        text-align: center;
+
+        @include breakpoint(tablet) {
+            max-width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.textblock-btns {
+
+    a {
+        min-width: 150px;
+
+        &:not(:first-of-type) {
+            margin-top: 20px;
+
+            @include breakpoint(phablet) {
+                margin-top: 0;
+                margin-left: 20px;
+            }
+        }
+    }
+}

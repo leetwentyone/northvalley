@@ -1,5 +1,276 @@
-<header class="site-header">
+.site-header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: $darkgrey;
+    z-index: 100;
+    border-bottom: 1px dashed red;
 
-    header
+    @include breakpoint(laptop) {
+        padding-bottom: 10px;
+    }
+}
 
-</header>
+.header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    left: 0;
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    color: $white;
+    margin-left: 20px;
+
+    @include breakpoint(laptop) {
+        width: auto;
+    }
+
+    @include breakpoint(desktop) {
+        width: 20%;
+    }
+}
+
+.header-actions {
+    display: none;
+
+    @include breakpoint(laptop) {
+        display: block;
+        width: auto;
+        margin-left: auto;
+        text-align: right;
+    }
+}
+
+.top-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    a {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+        color: $white!important;
+
+        @include breakpoint(desktop) {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        @include breakpoint(xldesktop) {
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+        &:not(:first-of-type) {
+            margin-left: 20px;
+        }
+
+        &:before {
+            content:"";
+            display: inline-block;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            background-color: #eee;
+            background-size: 30px;
+            margin-right: 10px;
+        }
+
+        &:last-of-type {
+            background-color: $orange;
+            padding: 15px 20px;
+
+            @include breakpoint(desktop) {
+                padding: 20px 20px;
+            }
+            
+            &:before {
+                display: none;
+            }
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    a[href^="tel:"] {
+
+        @media(min-width: 768px) {
+            pointer-events: none;
+        }
+
+        &:before {
+            background-image: url('images/icons/call.png');
+        }
+    }
+
+    .search-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        border: 2px solid $white;
+        border-radius: 100%;
+        transition: all .3s ease;
+
+        img {
+            max-width: 20px;
+            transition: all .3s ease;
+            transform: rotate(0);
+        }
+
+        &:hover {
+
+            img {
+                transform: rotate(5deg);
+            }
+        }
+    }
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: calc(100% - 20px)!important;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+
+    ul {
+        display: flex!important;
+        width: auto!important;
+        justify-content: flex-end;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            line-height: 0!important;
+            font-size: 14px!important;
+            margin-left: 15px;
+
+            @media(min-width: 1152px) {
+                font-size: 16px!important;
+            }
+        }
+
+        a {
+            display: block;
+            padding: 10px 5px!important;
+            color: $white;
+            font-size: 12px;
+            line-height: 12px;
+
+            @include breakpoint(desktop) {
+                font-size: 14px;
+                line-height: 14px;
+            }
+
+            @include breakpoint(xldesktop) {
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+    }
+
+    img {
+        max-width: 20px;
+    }
+}
+
+.mob-actions {
+    display: none;
+
+    @media(max-width: 991px) {
+        display: flex;
+        width: 100%;
+    }
+
+    li {
+        width: 70%;
+        list-style: none;
+        background-color: $darkblue;
+
+        + li {
+            width: 30%;
+            background-color: $orange;
+            text-align: center;
+
+            a {
+                font-weight: 600;
+            }
+        }
+
+        a {
+            display: block;
+            width: 100%;
+            padding: 10px 15px;
+            color: $white;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        a[href^="tel"] {
+            display: flex;
+            align-items: center;
+
+            &:before {
+                content:"";
+                display: inline-block;
+                position: relative;
+                width: 20px;
+                height: 20px;
+                background-color: #eee;
+                background-size: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.mob-links {
+    display: none;
+
+    @media(max-width: 991px) {
+        display: flex;
+        margin-left: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 20px;
+    }
+
+    img {
+        width: 25px;
+    }
+
+    li {
+
+        &:last-of-type {
+            margin-left: 20px;
+
+            a {
+                display: flex;
+                align-items: center;
+            }
+
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    a {
+        color: $white;
+    }
+}

@@ -1,6 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: $silka;
-    font-weight: normal;
+    font-family: $global-font;
+    font-weight: 600;
+    color: $copy;
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 30px;

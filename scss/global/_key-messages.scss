@@ -1,9 +1,10 @@
 .key-messages {
-    @extend .c-container;
+    background-color: $beige;
     padding-top: 15px;
     padding-bottom: 15px;
 
     ul {
+        @extend .c-container;
         padding: 0;
     }
 

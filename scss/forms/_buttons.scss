@@ -6,6 +6,7 @@
     padding: 15px 25px;
     font-size: 14px;
     line-height: 14px;
+    font-weight: 600;
     cursor: pointer;
     transition: all .3s ease;
 
@@ -14,33 +15,36 @@
     }
 }
 
-.dark-outline {
+.orange-outline {
     @extend .btn;
-    border-color: $black;
-    color: $black;
+    border-color: $orange;
+    color: $orange;
 
     &:hover {
-        background-color: $black;
+        background-color: $orange;
         color: $white;
     }
 }
 
-.dark-solid {
+.orange-solid {
     @extend .btn;
-    border-color: $black;
-    background-color: $black;
+    border-color: $orange;
+    background-color: $orange;
     color: $white;
 
     &:hover {
         background-color: $white;
-        color: $black;
+        color: $orange;
     }
 
     &:visited {
+        border-color: $orange;
+        background-color: $orange;
         color: $white;
 
         &:hover {
-            color: $black;
+            background-color: $white;
+            color: $orange;
         }
     }
 }
