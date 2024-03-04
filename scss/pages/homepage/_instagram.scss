@@ -1,0 +1,46 @@
+.instagram {
+    padding: 60px 20px;
+
+    h4 {
+        width: 100%;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    li {
+        width: 49%;
+        list-style: none;
+        margin-right: 1%;
+        margin-bottom: 1%;
+
+        &:nth-of-type(2n) {
+            margin-right: 0;
+        }
+
+        @include breakpoint(tablet) {
+            width: 19.2%;
+
+            &:nth-of-type(2n) {
+                margin-right: 1%;
+            }
+
+            &:nth-of-type(5n) {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .orange-solid {
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        display: block;
+        margin-top: 30px;
+    }
+}
