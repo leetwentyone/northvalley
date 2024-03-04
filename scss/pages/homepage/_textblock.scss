@@ -31,12 +31,7 @@
         min-width: 150px;
 
         &:not(:first-of-type) {
-            margin-top: 20px;
-
-            @include breakpoint(phablet) {
-                margin-top: 0;
-                margin-left: 20px;
-            }
+            margin-left: 10px;
         }
     }
 }

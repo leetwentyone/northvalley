@@ -196,12 +196,12 @@
     }
 
     li {
-        width: 70%;
+        width: 60%;
         list-style: none;
         background-color: $darkblue;
 
         + li {
-            width: 30%;
+            width: 40%;
             background-color: $orange;
             text-align: center;
 
