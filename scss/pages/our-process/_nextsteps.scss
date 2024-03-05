@@ -1,0 +1,110 @@
+.nextsteps {
+    padding: 60px 20px;
+    background-color: $beige;
+
+    h4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        @include breakpoint(phablet) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        list-style: none;
+        margin-bottom: 20px;
+
+        @include breakpoint(phablet) {
+            width: 48%;
+            margin-right: 4%;
+
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+        }
+
+        @include breakpoint(tablet) {
+            flex-direction: row;
+        }
+    }
+
+    .video-col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include breakpoint(tablet) {
+            width: 40%;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 100%;
+        }
+
+        a {
+            display: block;
+            position: relative;
+            height: auto;
+            margin-bottom: 20px;
+    
+            &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 100%;
+                transition: all .2s ease;
+                background-color: rgba($darkblue,.5);
+                background-image: url('images/play.png');
+                background-repeat: no-repeat;
+                background-size: 40px;
+                background-position: center; 
+            }
+
+            &:hover {
+                &:after {
+                    background-size: 35px; 
+                }
+            }
+        }
+
+        p {
+            color: $black;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
+    .text-col {
+        width: 100%;
+        padding-top: 30px;
+        text-align: center;
+
+        @include breakpoint(tablet) {
+            width: 60%;
+            padding: 0 0 0 30px;
+            text-align: left;
+        }
+    }
+}
