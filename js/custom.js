@@ -122,3 +122,12 @@ jQuery(function($){
     ]
   });
 });
+
+/* Image Slider */
+jQuery(function($){
+  jQuery('.image-slider ul').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+  });
+});
