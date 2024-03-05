@@ -1,8 +1,8 @@
 /* Open Search in header */
 jQuery(function($){
-  jQuery(document).on('click','.toggle-search',function(e){
+  jQuery(document).on('click','.search-toggle',function(e){
     e.stopPropagation();
-    jQuery(".search").toggleClass("search-open");
+    jQuery(".search-container").toggleClass("search-active");
     jQuery("body").toggleClass("search-activated");
   });
 });
@@ -11,7 +11,7 @@ jQuery(function($){
 jQuery(function($){
   jQuery(document).on('click','.close-search',function(e){
     e.stopPropagation();
-    jQuery(".search").removeClass("search-open");
+    jQuery(".search-container").removeClass("search-active");
     jQuery("body").removeClass("search-activated");
   });
 });
