@@ -1,0 +1,62 @@
+.casestudy-gallery {
+    padding: 60px 20px;
+    background-color: $beige;
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        @include breakpoint(phablet) {
+            flex-direction: row;
+        }
+    }
+
+    li {
+        list-style: none;
+        width: 100%;
+
+        &:not(:last-of-type) {
+            margin-bottom: 10px;
+
+            @include breakpoint(phablet) {
+                margin-bottom: 0;
+                margin-right: 2%;
+            }
+        }
+
+        @include breakpoint(tablet) {
+            width: 49%;
+        }
+    }
+}
+
+.more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+
+    .orange-outline {
+        padding-right: 50px;
+        color: $black;
+        background-image: url('images/plus-black.png');
+        background-repeat: no-repeat;
+        background-size: 15px;
+        background-position: top 50% right 15px;
+        transition: all .3s ease;
+
+        &:hover {
+            background-color: $orange;
+            border: 1px solid $orange;
+            color: $white;
+            background-image: url('images/plus-white.png');
+        }
+    }
+}

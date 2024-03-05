@@ -2,6 +2,10 @@
     padding: 60px 20px;
     text-align: center;
 
+    .body-casestudy & {
+        border-bottom: 1px solid $orange;
+    }
+
     h1 {
         width: 100%;
         text-align: center;

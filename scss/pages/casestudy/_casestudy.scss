@@ -1,0 +1,14 @@
+article {
+    @extend .c-container;
+    padding: 60px 20px;
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    p {
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
