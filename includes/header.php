@@ -47,7 +47,34 @@
 
         <div class="header-navigation">
           <ul>
-            <li><a href="#">Wrought Iron Gates</a></li>
+            <li class="has-children">
+              <a href="#">Wrought Iron Gates</a>
+              <div class="submenu">
+                <div class="sub-inner">
+                  <div class="submenu-title">
+                    <p>Wrought Iron Gates</p>
+                    <a href="#">View All Gates</a>
+                  </div> 
+                  <ul class="menu-collection">
+                    <li>
+                      <a href="#"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="#">Ultimate Collection</a></p>
+                    </li>
+                    <li>
+                      <a href="#"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="#">Estate Gates</a></p>
+                    </li>
+                    <li>
+                      <a href="#"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="#">Small Driveway Gates</a></p>
+                    </li>
+                    <li>
+                      <a href="#"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="#">Side &amp; Garden Gates</a></p>
+                    </li>
+                </div>
+              </div>
+            </li>
             <li><a href="#">Aluminium Gates</a></li>
             <li><a href="#">Privacy Gates</a></li>
             <li><a href="#">Railings</a></li>
@@ -64,3 +91,9 @@
 
     </div>
   </header>
+
+  <div class="search-container">
+
+    Search container
+
+  </div><!-- end search container -->

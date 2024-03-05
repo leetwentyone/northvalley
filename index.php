@@ -5,8 +5,8 @@
         <div class="hero">
 
             <picture>
-                <source media="(max-width:767px)" srcset="images/component-placeholder-mob.jpg"><!-- Image for mobile devices -->        
-                <img src="images/component-placeholder.jpg" alt=""><!-- Image for desktop screens -->
+                <source media="(max-width:767px)" srcset="images/placeholder-img1-mob.jpg"><!-- Image for mobile devices -->        
+                <img src="images/placeholder-img1.jpg" alt=""><!-- Image for desktop screens -->
             </picture>
 
             <div class="hero-overlay">
@@ -42,8 +42,8 @@
             <ul>
                 <li>
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/component-placeholder-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/component-placeholder.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
+                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
@@ -55,8 +55,8 @@
                 </li>
                 <li>
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/component-placeholder-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/component-placeholder.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
+                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
@@ -148,7 +148,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/component-placeholder-square.jpg">
+                    <img src="images/placeholder-img1.jpg">
                 </div>
 
                 <div class="text-col">
@@ -254,7 +254,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/component-placeholder-square.jpg">
+                    <img src="images/placeholder-img1.jpg">
                 </div>
 
                 <div class="text-col">
@@ -279,7 +279,7 @@
             </div>
         </div><!-- end text and image col -->
 
-        <div class="information-callout" style="background-image: url('images/component-placeholder.jpg">
+        <div class="information-callout" style="background-image: url('images/placeholder-img2.jpg">
 
             <h4 class="callout-heading">Wrought Iron Gates and Railings</h4>
             <p>For more information about our range of beautiful wrought iron gates.</p>
@@ -325,7 +325,7 @@
             <div class="c-container">
 
                 <div class="video-col">
-                    <a href="#"><img src="images/component-placeholder-square.jpg"></a>
+                    <a href="#"><img src="images/placeholder-img1.jpg"></a>
                 </div>
 
                 <div class="text-col">
