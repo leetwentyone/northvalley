@@ -1897,4 +1897,28 @@ body.search-activated {
     background-size: 25px;
     background-color: transparent; }
 
+.image-slider {
+  padding: 60px;
+  background-color: #F7F6F2; }
+  .image-slider img {
+    width: 100%; }
+  .image-slider li {
+    list-style: none; }
+  .image-slider .slick-prev {
+    background-color: #495057;
+    background-image: url("images/white-arrow2.png");
+    background-size: 25px;
+    left: -50px; }
+    @media (min-width: 768px) {
+      .image-slider .slick-prev {
+        left: 30px; } }
+  .image-slider .slick-next {
+    background-color: #495057;
+    background-image: url("images/white-arrow.png");
+    background-size: 25px;
+    right: -50px; }
+    @media (min-width: 768px) {
+      .image-slider .slick-next {
+        right: 30px; } }
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+.image-slider {
+    padding: 60px;
+    background-color: $beige;
+
+    img {
+        width: 100%;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .slick-prev {
+        background-color: $darkgrey;
+        background-image: url('images/white-arrow2.png');
+        background-size: 25px;
+        left: -50px;
+
+        @include breakpoint(tablet) {
+            left: 30px;
+        }
+    }
+
+    .slick-next {
+        background-color: $darkgrey;
+        background-image: url('images/white-arrow.png');
+        background-size: 25px;
+        right: -50px;
+
+        @include breakpoint(tablet) {
+            right: 30px;
+        }
+    }
+}
