@@ -1389,6 +1389,8 @@ body.search-activated {
 
 .collections {
   padding: 60px 20px calc(60px - 2%) 20px; }
+  .body-category .collections {
+    padding-top: 0; }
   .collections ul {
     display: flex;
     flex-direction: column;
