@@ -25,7 +25,6 @@ jQuery(function($){
   });
 });
 
-
 /* Key Messages */
 jQuery(function($){
   jQuery('.key-messages ul').slick({
@@ -77,7 +76,7 @@ jQuery(function($){
   });
 });
 
-/* Slidre Navigation */
+/* Slider Navigation */
 jQuery(function($){
   jQuery('.prev-slide').click(function(){
     jQuery('.slider ul').slick('slickPrev');
@@ -85,5 +84,41 @@ jQuery(function($){
 
   jQuery('.next-slide').click(function(){
     jQuery('.slider ul').slick('slickNext');
+  });
+});
+
+/* Gallery */
+jQuery(function($){
+  jQuery('.main').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.thumbnails'
+  });
+});
+
+jQuery(function($){
+  jQuery('.thumbnails').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    asNavFor: '.main',
+    dots: false,
+    arrows: true,
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
   });
 });
