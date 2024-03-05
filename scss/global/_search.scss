@@ -1,49 +1,100 @@
-table {
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
     width: 100%;
-}
-  
-th,
-td {
-   padding: 15px;
-}
+    height: 100vh;
+    overflow: hidden;
+    background-color: $beige;
+    transition: all .3s ease;
+    z-index: -500;
 
-thead {
-    background-color: $darkgrey;
+    &.search-active {
+        opacity: 1;
+        z-index: 500;
+    }
 
-    td {
-        color: $white;
+    p {
+        margin: 0;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
 
-        &:nth-of-type(even) {
-            border-left: 1px solid $lightgrey;
-            border-right: 1px solid $lightgrey;
+        ~ p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+
+            a {
+                text-decoration: underline;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    form {
+        display: flex;
+        width: 90%;
+
+        @include breakpoint(tablet) {
+            width: 700px;
+        }
+
+        input {
+            height: 70px;
+            width: calc(100% - 90px);
+            padding-left: 15px;
+            font-size: 18px;
+
+            @include breakpoint(tablet) {
+                width: calc(100% - 150px);
+            }
+
+            &::placeholder {
+                color: $copy;
+            }
+        }
+
+        button[type="submit"] {
+            width: 90px;
+            background-color: $darkgrey;
+            border: 1px solid $darkgrey;
+            border-left: 0;
+            color: $white;
+            font-weight: 600;
+            transition: all .3s ease;
+
+            @include breakpoint(tablet) {
+                width: 150px;
+            }
+
+            @include breakpoint(desktop) {
+                font-size: 18px;
+            }
+
+            &:hover {
+                background-color: darken($darkgrey,15%);
+            }
         }
     }
 }
 
-tbody {
+.close-search {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    max-width: 30px;
+}
 
-    tr {
-        &:nth-of-type(even) {
-            background-color: $lightgrey;
-        }
-
-        &:last-of-type {
-            border-bottom: 1px solid $midgrey;
-        }
-    }
-
-    td {
-        &:nth-of-type(1) {
-            border-left: 1px solid $midgrey;
-        }
-
-        &:nth-of-type(even) {
-            border-left: 1px solid $midgrey;
-            border-right: 1px solid $midgrey;
-        }
-
-        &:last-of-type {
-            border-right: 1px solid $midgrey;
-        }
-    }
+body.search-activated {
+    height: 100vh;
+    overflow: hidden;
 }
