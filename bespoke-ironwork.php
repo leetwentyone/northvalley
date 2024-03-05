@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?>
 
-    <main class="site-content body-subcategory" id="top">
+    <main class="site-content body-ironwork" id="top">
 
         <div class="page-banner">
 

@@ -244,7 +244,6 @@
                             </div>
                             <h4>Composite Gates</h4>
                         </li>
-
                 </div>
 
             </div>
