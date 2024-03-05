@@ -94,6 +94,13 @@
 
   <div class="search-container">
 
-    Search container
+    <a class="close-search"><img src="images/close.png"></a>
+
+    <p>Search Our Website</p>
+    <form>
+      <input type="text" placeholder="Type something...">
+      <button type="submit">Search</button>
+    </form>
+    <p>Can't find what your looking for? <a href="#">get in touch</a></p>
 
   </div><!-- end search container -->
