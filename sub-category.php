@@ -25,7 +25,7 @@
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
-                            <h3 class="slide-title">Slide Two</h3>
+                            <h3 class="slide-title">Blenheim</h3>
                             <p>Add your text here...</p>
                             <a href="#" class="orange-solid">Button Two</a>
                         </div>
