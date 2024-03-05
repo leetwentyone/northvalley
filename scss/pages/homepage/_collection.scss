@@ -5,7 +5,8 @@
         padding-top: 0;
     }
 
-    .body-subcategory & {
+    .body-subcategory &,
+    .body-casestudies & {
         padding-top: 0;
 
         li {
@@ -21,6 +22,10 @@
                 }
             }
         }
+    }
+
+    .body-casestudies & {
+        border-bottom: 1px solid $orange;
     }
 
     ul {
