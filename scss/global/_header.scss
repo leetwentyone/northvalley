@@ -7,13 +7,14 @@
     border-bottom: 1px dashed red;
 
     @include breakpoint(laptop) {
-        padding-bottom: 10px;
+        
     }
 }
 
 .header-inner {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     width: 100%;
     left: 0;
 }
@@ -145,45 +146,53 @@
     margin-top: 10px;
 
     ul {
-        display: flex!important;
-        width: auto!important;
-        justify-content: flex-end;
+        &:not(.menu-collection) {
+            display: flex!important;
+            width: auto!important;
+            justify-content: flex-end;
 
-        li {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            list-style: none;
-            line-height: 0!important;
-            font-size: 14px!important;
-            margin-left: 15px;
+            li {
+                &:not(.menu-collection li) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    list-style: none;
+                    line-height: 0!important;
+                    font-size: 14px!important;
+                    margin-left: 15px;
 
-            @media(min-width: 1152px) {
-                font-size: 16px!important;
-            }
-        }
-
-        a {
-            display: block;
-            padding: 10px 5px!important;
-            color: $white;
-            font-size: 12px;
-            line-height: 12px;
-
-            @include breakpoint(desktop) {
-                font-size: 14px;
-                line-height: 14px;
+                    @media(min-width: 1152px) {
+                        font-size: 16px!important;
+                    }
+                }
             }
 
-            @include breakpoint(xldesktop) {
-                font-size: 16px;
-                line-height: 16px;
+            a {
+                &:not(.submenu-title a):not(.menu-collection a) {
+                    display: block;
+                    padding: 10px 5px 20px 5px!important;
+                    color: $white;
+                    font-size: 12px;
+                    line-height: 12px;
+
+                    @include breakpoint(desktop) {
+                        font-size: 14px;
+                        line-height: 14px;
+                    }
+
+                    @include breakpoint(xldesktop) {
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+                }
             }
         }
     }
 
     img {
-        max-width: 20px;
+        &:not(.menu-collection img) {
+            max-width: 20px;
+        }
     }
 }
 

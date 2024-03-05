@@ -12,8 +12,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding-left: 20px;
-    padding-right: 20px;
     width: 100%;
     height: 100%;
 
@@ -24,12 +22,14 @@
 }
 
 .content-box {
-    background-color: rgba($darkblue,.7);
-    padding: 30px 30px 50px 30px;
-    width: 80%;
+    background-color: $darkblue;
+    padding: 30px 30px 30px 30px;
+    width: 100%;
 
     @include breakpoint(tablet) {
+        padding: 30px 30px 50px 30px;
         width: 500px;
+        background-color: rgba($darkblue,.7);
     }
 
     p {
@@ -49,17 +49,27 @@
 .slider-nav {
     position: absolute;
     display: flex;
+    justify-content: flex-end;
     bottom: 30px;
-    right: calc(10% + 20px);
+    right: 20px;
     width: 130px;
+
+    @include breakpoint(tablet) {
+        right: calc(10% + 20px);
+    }
 
     a {
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: $white;
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
+
+        @include breakpoint(desktop) {
+            width: 60px;
+            height: 60px;
+        }
 
         + a {
             margin-left: 10px;

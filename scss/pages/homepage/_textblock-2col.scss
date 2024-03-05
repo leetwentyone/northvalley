@@ -18,8 +18,10 @@
 
     .col-1 {
         width: 100%;
+        padding-bottom: 60px;
 
         @include breakpoint(tablet) {
+            padding-bottom: 0;
             width: 50%;
         }
 
