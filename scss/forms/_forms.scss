@@ -5,13 +5,21 @@ form {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-input[type="search"] {
+input[type="search"],
+input[type="number"] {
     display: block;
     width: 100%;
     border-radius: 0;
     border: 1px solid $darkgrey;
     height: 50px;
     padding-left: 10px;
+}
+
+input[type="file"] {
+    width: 100%;
+    border: 1px solid $darkgrey;
+    padding: 30px;
+    background-color: $white;
 }
 
 select {
@@ -43,7 +51,7 @@ textarea {
 input[type="checkbox"] {
     margin: 0 3px 0 0;
     position: relative;
-    top: 2px;
+    top: 1px;
 }
 
 input[type="radio"] {
@@ -71,11 +79,7 @@ legend {
 label {
     display: inline-block;
     position: relative;
-    margin-bottom: 5px;
-}
-
-.field {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .is-checkboxes {
@@ -84,10 +88,11 @@ label {
         width: 100%;
     }
 
-    input[type="checkbox"] {
-        &:not(:first-of-type) {
-            margin-left: 5px;
-        }
+    p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 14px;
+        color: $black;
     }
 }
 
@@ -120,17 +125,127 @@ button[type="submit"] {
 }
 
 input[type="submit"] {
-    width: 100px;
+    width: 150px;
     height: 50px;
-    background-color: $white;
+    background-color: $orange;
     border-radius: 0;
-    border: 1px solid $darkgrey;
-    color: $darkgrey;
+    font-weight: 600;
+    border: 1px solid $orange;
+    color: $white;
     cursor: pointer;
     transition: all .3s ease;
 
     &:hover {
         background-color: $darkgrey;
         color: $white;
+    }
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    @include breakpoint(phablet) {
+        margin-bottom: 20px;
+    }
+
+    .row50 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        @include breakpoint(phablet) {
+            width: 49%;
+            margin-bottom: 0;
+            margin-right: 2%;
+
+            + .row50 {
+                width: 49%;
+                margin-right: 0;
+            }
+        }
+    }
+
+    .row100 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        @include breakpoint(phablet) {
+            margin-bottom: 0;
+        }
+    }
+
+    small {
+        display: block;
+        
+        @include breakpoint(phablet) {
+            margin-top: 20px;
+        }
+    }
+
+    .html-block {
+        margin-bottom: 20px;
+
+        @include breakpoint(phablet) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.checkbox-inline {
+    display: inline-block;
+    width: auto;
+    color: $copy;
+
+    &:not(:first-of-type) {
+        margin-left: 20px;
+    }
+
+    input {
+        margin: 0 5px 0 0;
+    }
+}
+
+.quote-form {
+    background-color: $beige;
+    padding: 60px 20px;
+
+    .c-container {
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    h4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    form {
+        padding: 0;
+    }
+
+    label {
+        padding-right: 30px;
+    }
+
+    .is-checkboxes {
+        margin-top: 5px;
+    }
+
+    input[type="checkbox"] {
+        margin: 0 7px 10px 0;
+    }
+
+    .html-block {
+        margin-bottom: 20px;
+    }
+
+    .form-row {
+        
+        &:last-of-type {
+            justify-content: center;
+        }
     }
 }

@@ -9,6 +9,15 @@
         }
     }
 
+    &.default-theme {
+        background-color: $white;
+        padding: 60px 20px 30px 20px;
+
+        @include breakpoint(tablet) {
+            padding: 60px 20px;
+        }
+    }
+
     .c-container {
         display: flex;
         flex-direction: column;
@@ -83,6 +92,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
+                transition: all .3s ease;
                 background-color: rgba($darkblue,.5);
                 background-image: url('images/play.png');
                 background-repeat: no-repeat;
@@ -97,7 +107,12 @@
                     height: 95%;
                     top: 2.5%;
                     left: 1.5%;
-                    border: 1px solid $orange;                }
+                    border: 1px solid $orange;
+                }
+
+                &:after {
+                    background-size: 70px; 
+                }
             }
         }
 
