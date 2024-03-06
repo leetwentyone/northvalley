@@ -7,7 +7,7 @@
         <div class="textblock">
             <div class="c-container">
 
-                <h1>Request the north valley forge <br> wrought iron catalogue</h1>
+                <h1>Make an enquiry</h1>
                 <p>
                     In sagittis diam in lectus imperdiet venenatis. <a href="#">Aliquam quis magna aliquam</a>, porta nulla ac, consectetur ipsum. 
                     Suspendisse et scelerisque nibh, eu sodales leo. Sed mauris neque, lobortis sed gravida eu, ultrices vel neque. 
@@ -21,14 +21,29 @@
 
                 <div class="col-l">
 
-                    <img src="images/placeholder-img1.jpg">
+                    <h1>Have a question? <br> Get in touch!</h1>
+                    <p>
+                        If you have a design idea already for a custom make then you could send a rough sketch or image
+                        along with the basic dimensions required to <a href="mailto:sales@nvf.co.uk">sales@nvf.co.uk</a>
+                    </p>
+
+                    <div class="contact-details">
+
+                        <address>
+                            North Valley Forge Ltd,<br>
+                            Valley Forge Business Park,<br>
+                            Reedyford Road,<br>
+                            Nelson BB9 8TU
+                        </address>
+
+                        <a href="tel:01282677300">01282 677300</a><br>
+                        <a href="mailto:sales@nvf.co.uk">sales@nvf.co.uk</a>
+
+                    </div>
 
                 </div>
 
                 <div class="col-r">
-
-                <h2>Catalogue by post</h2>
-                    <p>Fill in the details below to get a catalogue sent out in the post. Please allow up to 5 working days for it to arrive.</p>
 
                     <form>
 
@@ -55,31 +70,70 @@
                         </div>
 
                         <div class="form-row">
-                            <div class="row50">
-                                <label>Address Line 1</label>
-                                <input type="text">
+                            <div class="row100">
+                                <label>Which gate are you interested in?</label>
+                                <select>
+                                    <option>Gate One</option>
+                                    <option>Gate Two</option>
+                                    <option>Gate Three</option>
+                                    <option>Gate Four</option>
+                                    <option>Gate Five</option>
+                                </select>
                             </div>
+                        </div>
+
+                        <div class="html-block">
+                            Approximate desired width & height of gates
+                        </div>  
+                        
+                        <div class="form-row">
                             <div class="row50">
-                                <label>Address Line 1</label>
-                                <input type="email">
+                                <label>Width</label>
+                                <input type="number">
+                            </div>
+
+                            <div class="row50">
+                                <label>Height</label>
+                                <input type="number">
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="row50">
-                                <label>Town</label>
-                                <input type="text">
+                                <label>Would you like your gates to be automated?</label>
+                                <div class="is-checkboxes">
+                                    <input type="checkbox" value="Manual Gates">Manual Gates<br>
+                                    <input type="checkbox" value="Automatic Gates">Automatic Gates
+                                </div>
                             </div>
+
                             <div class="row50">
-                                <label>County</label>
-                                <input type="email">
+                                <label>Would you like us to install your gates? (UK only)</label>
+                                <div class="is-checkboxes">
+                                    <input type="checkbox" value="supply only">Supply Only<br>
+                                    <input type="checkbox" value="Fully Installed">Fully Installed
+                                </div>
                             </div>
                         </div>
-                        
+
+                        <div class="form-row">
+                            <div class="row100">
+                                <label>More Information</label>
+                                <textarea rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="row100">
+                                <label>If possible, please provide images of where your gate or ironwork will be going</label>
+                                <input type="file">
+                            </div>
+                        </div>
+
                         <div class="html-block">
                             I would like to receive relevant email updates from NVF
                         </div>
-
+                    
                         <div class="form-row">
                             <div class="row100">
 
