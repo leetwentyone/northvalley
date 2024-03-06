@@ -11,6 +11,10 @@
 		padding-bottom: 60px;
 	}
 
+	.body-misc & {
+		padding-top: 0;
+	}
+
     h2,h3,h4,h5,h6 {
         width: 100%;
         text-align: center;
@@ -91,6 +95,7 @@
 		ul,
 		ol {
 			padding-left: 15px;
+			margin-bottom: 30px;
 		}
 
 		li {

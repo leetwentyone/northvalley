@@ -541,9 +541,6 @@ li {
 iframe {
   width: 100%; }
 
-.site-content {
-  min-height: 3000px; }
-
 .c-container, nav.primary ul:not(.sub-menu), .sub-inner, .key-messages ul, .overlay-content, article {
   width: 100%;
   max-width: 1366px;
@@ -1364,6 +1361,8 @@ body.search-activated {
     @media (max-width: 767px) {
       .textblock h1 br {
         display: none; } }
+    .textblock h1:only-child {
+      margin-bottom: 0; }
   .textblock p {
     width: 100%;
     text-align: center; }
@@ -2448,6 +2447,8 @@ article {
     .faqs {
       padding-top: 60px;
       padding-bottom: 60px; } }
+  .body-misc .faqs {
+    padding-top: 0; }
   .faqs h2, .faqs h3, .faqs h4, .faqs h5, .faqs h6 {
     width: 100%;
     text-align: center;
@@ -2499,7 +2500,8 @@ article {
       margin-bottom: 0; }
     .faq-item .faq-answer ul,
     .faq-item .faq-answer ol {
-      padding-left: 15px; }
+      padding-left: 15px;
+      margin-bottom: 30px; }
     .faq-item .faq-answer li {
       color: #495057;
       font-weight: 300; }
