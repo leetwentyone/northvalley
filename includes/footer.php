@@ -60,7 +60,7 @@
                     <li><a href="perfect-gates.php">Choosing the perfect gates</a></li>
                     <li><a href="our-process.php">The Process</a></li>
                     <li><a href="new-installs.php">New Installs</a></li>
-                    <li><a href="casestudes.php">Case Studies</a></li>
+                    <li><a href="casestudies.php">Case Studies</a></li>
                     <li><a href="showroom.php">Visit Our Showroom</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                 </ul>
