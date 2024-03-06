@@ -13,6 +13,9 @@
 
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/drilldown.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/lity.js"></script>
   <script src="js/custom.js"></script>
   
 </head>
@@ -33,7 +36,7 @@
 
       <ul class="mob-links">
         <li><a href="#" class="search-toggle"><img src="images/search-white.png"></a></li>
-        <li><a href="#" class="menu-toggle"><img src="images/menu-white.png">Menu</a></li>
+        <li><a href="#" class="toggle-menu"><img src="images/menu-white.png">Menu</a></li>
       </ul>
 
       <div class="header-actions">
@@ -83,7 +86,7 @@
           </ul>
           <ul>
             <li><a href="#" class="search-toggle"><img src="images/search-white.png"></a></li>
-            <li><a href="#" class="menu-toggle"><img src="images/menu-white.png"></a></li>
+            <li><a href="#" class="toggle-menu"><img src="images/menu-white.png"></a></li>
           </ul>
         </div>
 
@@ -104,3 +107,5 @@
     <p>Can't find what your looking for? <a href="#">get in touch</a></p>
 
   </div><!-- end search container -->
+
+  <?php include('includes/drill-down.php'); ?>

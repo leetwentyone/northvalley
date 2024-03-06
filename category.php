@@ -135,19 +135,19 @@
 
             <ul class="multiple-images">
                 <li>
-                    <a href="#"></a>
+                    <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
                     <img src="images/component-placeholder-square.jpg">
                 </li>
                 <li>
-                    <a href="#"></a>
+                    <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
                     <img src="images/component-placeholder-square.jpg">
                 </li>
                 <li>
-                    <a href="#"></a>
+                    <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
                     <img src="images/component-placeholder-square.jpg">
                 </li>
                 <li>
-                    <a href="#"></a>
+                    <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
                     <img src="images/component-placeholder-square.jpg">
                 </li>
             </ul>

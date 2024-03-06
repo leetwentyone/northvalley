@@ -9,7 +9,7 @@
                 <img src="images/placeholder-img1.jpg" alt=""><!-- Image for desktop screens -->
             </picture>
 
-            <a href="#" class="view-btn">View All Photos</a>
+            <a class="view-btn view-photos">View All Photos</a>
 
         </div><!-- end page banner -->
 
@@ -59,7 +59,7 @@
             <div class="c-container">
 
                 <div class="video-col">
-                    <a href="#"><img src="images/placeholder-img1.jpg"></a>
+                    <a href="//vimeo.com/1084537" data-lity><img src="images/placeholder-img1.jpg"></a>
                 </div>
 
                 <div class="text-col">
