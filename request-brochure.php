@@ -30,7 +30,7 @@
                 <h2>Catalogue by post</h2>
                     <p>Fill in the details below to get a catalogue sent out in the post. Please allow up to 5 working days for it to arrive.</p>
 
-                    <form>
+                    <form action="thankyou.php">
 
                         <div class="form-row">
                             <div class="row50">

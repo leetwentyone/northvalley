@@ -84,7 +84,7 @@
 
                 <h4>Get A Quote</h4>
 
-                <form>
+                <form action="thankyou.php">
 
                     <div class="form-row">
                         <div class="row50">

@@ -24,7 +24,7 @@
 
                     <h2>Have questions? get in touch!</h2>
 
-                    <form>
+                    <form action="thankyou.php">
 
                         <div class="form-row">
                             <div class="row50">

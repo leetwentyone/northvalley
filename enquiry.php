@@ -45,7 +45,7 @@
 
                 <div class="col-r">
 
-                    <form>
+                    <form action="thankyou.php">
 
                         <div class="form-row">
                             <div class="row50">
