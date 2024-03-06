@@ -2,7 +2,8 @@
     padding: 60px 20px;
     text-align: center;
 
-    .body-casestudy & {
+    .body-casestudy &,
+    .body-perfectgates & {
         border-bottom: 1px solid $orange;
     }
 

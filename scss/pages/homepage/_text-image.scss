@@ -45,6 +45,18 @@
         }
     }
 
+    &:has(.orange-solid) {
+
+        .text-col {
+            
+            p {
+                &:last-of-type {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
     p.subheading {
         text-transform: uppercase;
         margin-bottom: 5px;
