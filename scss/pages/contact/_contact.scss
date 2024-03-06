@@ -1,0 +1,116 @@
+.getintouch {
+	background-color: $beige;
+	padding: 60px 20px;
+	width: 100%;
+
+	.c-container {
+		display: flex;
+		flex-direction: column;
+
+		@include breakpoint(tablet) {
+			flex-direction: row;
+		}
+	}
+
+	.col-l {
+		width: 100%;
+
+		@include breakpoint(tablet) {
+			width: 50%;
+		}
+	}
+
+	.col-r {
+		width: 100%;
+
+		@include breakpoint(tablet) {
+			width: 50%;
+			padding-left: 30px;
+		}
+
+		@include breakpoint(desktop) {
+			padding-left: 60px;
+		}
+	}
+
+	form {
+		padding-top: 0;
+	}
+
+	button[type="submit"] {
+		@extend .orange-solid;
+	}
+
+	.map {
+		margin-bottom: 30px;
+	}
+
+	address {
+        position: relative;
+        color: $copy;    
+        font-style: normal;
+        margin-bottom: 20px;
+        padding-left: 40px;
+
+		@include breakpoint(desktop) {
+			font-size: 18px;
+			line-height: 24px;
+		}
+
+        &:before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            background-color: #eee;
+        }
+    }
+
+    a[href^="tel"] {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+		color: $copy;
+
+		@include breakpoint(desktop) {
+			font-size: 18px;
+			line-height: 24px;
+		}
+
+        &:before {
+            content: "";
+            display: inline-block;
+            position: relative;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            background-color: #eee;
+        }
+    }
+
+    a[href^="mailto"] {
+        display: inline-flex;
+        align-items: center;
+        position:relative;
+		color: $copy;
+        margin-top: 20px;
+
+		@include breakpoint(desktop) {
+			font-size: 18px;
+			line-height: 24px;
+		}
+
+        &:before {
+            content: "";
+            display: inline-block;
+            position: relative;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            background-color: #eee;
+        }
+    }
+}

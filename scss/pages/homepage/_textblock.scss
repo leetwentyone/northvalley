@@ -18,6 +18,7 @@
         }
 
         @media(max-width:767px) {
+
             br {
                 display: none;
             }
@@ -45,6 +46,13 @@
             &:last-of-type {
                 margin-bottom: 30px;
             }
+        }
+    }
+
+    a[href^="tel"] {
+
+        @include breakpoint(tablet) {
+            pointer-events: none;
         }
     }
 }

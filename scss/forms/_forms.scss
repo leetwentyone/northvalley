@@ -10,14 +10,14 @@ input[type="number"] {
     display: block;
     width: 100%;
     border-radius: 0;
-    border: 1px solid $darkgrey;
+    border: 1px solid #ccc;
     height: 50px;
     padding-left: 10px;
 }
 
 input[type="file"] {
     width: 100%;
-    border: 1px solid $darkgrey;
+    border: 1px solid #ccc;
     padding: 30px;
     background-color: $white;
 }
@@ -26,13 +26,13 @@ select {
     width: 100%;
     border-radius: 0;
     padding-left: 10px;
-    border: 1px solid $darkgrey;
+    border: 1px solid #ccc;
     height: 50px;
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-image: url('images/icons/select-arrow.png');
+    background-image: url('images/select-arrow.png');
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: top 50% right 20px;
@@ -42,7 +42,7 @@ textarea {
     width: 100%;
     border-radius: 0;
     padding: 20px;
-    border: 1px solid $darkgrey;
+    border: 1px solid #ccc;
     height: 150px;
     font-family: $global-font;
     resize: none;
