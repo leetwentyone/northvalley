@@ -131,3 +131,11 @@ jQuery(function($){
     arrows: true,
   });
 });
+
+/* Accordion */
+jQuery(function($){
+  jQuery(".faq-item").find(".faq-heading").click(function() {
+    jQuery(this).toggleClass("active-tab").find("span").toggleClass("icon-minus icon-plus");
+    jQuery(this).next().toggleClass("open").slideToggle("fast")
+  });
+});
