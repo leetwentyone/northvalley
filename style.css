@@ -149,7 +149,8 @@ legend {
 label {
   display: inline-block;
   position: relative;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  color: #495057; }
 
 .is-checkboxes label {
   width: 100%; }
@@ -232,10 +233,7 @@ input[type="submit"] {
   color: #495057; }
   .checkbox-inline > div {
     display: inline-block;
-    margin-bottom: 10px;
     width: 49%; }
-  .checkbox-inline input {
-    margin: 0 5px 0 0; }
 
 .quote-form {
   background-color: #F7F6F2;
@@ -2619,7 +2617,67 @@ article {
         padding-left: 60px; } }
   .request form {
     padding-top: 0; }
+  .request input[type="checkbox"] {
+    margin: 0 7px 15px 0px; }
+  .request .html-block {
+    margin-bottom: 20px; }
+  .request .is-checkboxes {
+    color: #495057; }
   .request img {
     margin-bottom: 30px; }
+  .request .contact-details address {
+    position: relative;
+    color: #495057;
+    font-style: normal;
+    margin-bottom: 20px;
+    padding-left: 40px; }
+    @media (min-width: 1152px) {
+      .request .contact-details address {
+        font-size: 18px;
+        line-height: 24px; } }
+    .request .contact-details address:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      background-color: #eee; }
+  .request .contact-details a[href^="tel"] {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    color: #495057; }
+    @media (min-width: 1152px) {
+      .request .contact-details a[href^="tel"] {
+        font-size: 18px;
+        line-height: 24px; } }
+    .request .contact-details a[href^="tel"]:before {
+      content: "";
+      display: inline-block;
+      position: relative;
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      background-color: #eee; }
+  .request .contact-details a[href^="mailto"] {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    color: #495057;
+    margin-top: 20px; }
+    @media (min-width: 1152px) {
+      .request .contact-details a[href^="mailto"] {
+        font-size: 18px;
+        line-height: 24px; } }
+    .request .contact-details a[href^="mailto"]:before {
+      content: "";
+      display: inline-block;
+      position: relative;
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      background-color: #eee; }
 
 /*# sourceMappingURL=style.css.map */

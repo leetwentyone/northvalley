@@ -80,6 +80,7 @@ label {
     display: inline-block;
     position: relative;
     margin-bottom: 10px;
+    color: $copy;
 }
 
 .is-checkboxes {
@@ -199,12 +200,7 @@ input[type="submit"] {
 
     > div {
         display: inline-block;
-        margin-bottom: 10px;
         width: 49%;
-    }
-
-    input {
-        margin: 0 5px 0 0;
     }
 }
 
