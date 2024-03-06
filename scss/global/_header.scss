@@ -4,7 +4,6 @@
     width: 100%;
     background-color: $darkgrey;
     z-index: 100;
-    border-bottom: 1px dashed red;
 
     @include breakpoint(laptop) {
         

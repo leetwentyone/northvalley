@@ -20,8 +20,6 @@ li.has-children {
 
 .sub-inner {
     @extend .c-container;
-    border-left: 1px dashed red;
-    border-right: 1px dashed red;
     text-align: left;
     height: auto;
     padding: 30px 0;
