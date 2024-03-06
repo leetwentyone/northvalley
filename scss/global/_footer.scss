@@ -242,6 +242,10 @@
             margin-right: 10px;
             background-color: #eee;
         }
+
+        @include breakpoint(tablet) {
+            pointer-events: none;
+        }
     }
 
     a[href^="mailto"] {

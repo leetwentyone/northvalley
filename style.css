@@ -924,6 +924,9 @@ iframe {
       height: 30px;
       margin-right: 10px;
       background-color: #eee; }
+    @media (min-width: 768px) {
+      .footer-inner a[href^="tel"] {
+        pointer-events: none; } }
   .footer-inner a[href^="mailto"] {
     display: inline-flex;
     align-items: center;
@@ -2453,7 +2456,7 @@ article {
   padding: 60px 20px 20px 20px; }
   @media (min-width: 768px) {
     .install-btn {
-      padding: 20px 20px 20px 20px; } }
+      padding: 30px 20px 20px 20px; } }
 
 .faqs {
   display: block;
