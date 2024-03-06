@@ -64,6 +64,20 @@
             position: relative;
             height: auto;
             margin-bottom: 20px;
+
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 100%;
+                transition: all .2s ease;
+                border: 2px solid transparent;
+                z-index: 5;
+                transform: scale(1);
+            }
     
             &:after {
                 content: "";
@@ -82,6 +96,12 @@
             }
 
             &:hover {
+
+                &:before {
+                    transform: scale(1.05);
+                    border-color: $orange;
+                }
+
                 &:after {
                     background-size: 35px; 
                 }
