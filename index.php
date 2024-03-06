@@ -13,7 +13,7 @@
                 <div class="overlay-content">
                     <p>North Valley Forge</p>
                     <h1>UK's premier Electric <br>Gate Specialist</h1>
-                    <a href="#" class="orange-solid">Explore Our Iron Gates</a>
+                    <a href="category.php" class="orange-solid">Explore Our Iron Gates</a>
                 </div>
             </div><!-- end hero overlay -->
 
@@ -30,8 +30,8 @@
                     Curabitur vitae elit porta, imperdiet quam at, volutpat neque.
                 </p>
                 <div class="textblock-btns">
-                    <a href="#" class="orange-outline">Button One</a>
-                    <a href="#" class="orange-solid">Button Two</a>
+                    <a href="request-brochure.php" class="orange-outline">Request A Brochure</a>
+                    <a href="enquiry.php" class="orange-solid">Make An Enquiry</a>
                 </div>
 
             </div>
@@ -49,7 +49,7 @@
                         <div class="content-box">
                             <h3 class="slide-title">Ultimate Collection</h3>
                             <p>Anything else is just a gate...</p>
-                            <a href="#" class="orange-solid">View Collection</a>
+                            <a href="sub-category.php" class="orange-solid">View Collection</a>
                         </div>
                     </div>
                 </li>
@@ -80,7 +80,7 @@
 
                 <div class="col-1">
                     <h4>Quality Iron Gates Design,<br>Wooden Driveway Gates,<br>Side Gates &amp; Railings.</h4>
-                    <a href="#" class="orange-solid">Request Brochure</a>
+                    <a href="request-brochure.php" class="orange-solid">Request Brochure</a>
                 </div>
 
                 <div class="col-2">
@@ -111,7 +111,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Estate Gates</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="category.php">View Our Collection</a>
                         </div>
                         <h4>Estate Gates</h4>
                     </li>
@@ -119,7 +119,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Side &amp; Garden Gates</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="category.php">View Our Collection</a>
                         </div>
                         <h4>Side &amp; Garden Gates</h4>
                     </li>
@@ -127,7 +127,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Balustrades &amp; Staircases</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="category.php">View Our Collection</a>
                         </div>
                         <h4>Balustrades &amp; Staircases</h4>
                     </li>
@@ -135,7 +135,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Aluminium Gates</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="category.php">View Our Collection</a>
                         </div>
                         <h4>Aluminium Gates</h4>
                     </li>
@@ -167,7 +167,7 @@
                         Maecenas facilisis sapien eget mollis laoreet.
                     </p>
 
-                    <a href="#" class="orange-solid">Explore our wrought iron railings</a>
+                    <a href="category.php" class="orange-solid">Explore our wrought iron railings</a>
 
                 </div>
 
@@ -188,7 +188,7 @@
                                 <div class="content-box">
                                     <h3 class="slide-title">Privacy Gates</h3>
                                     <p>Hardwood gates...the best of both worlds</p>
-                                    <a href="#" class="orange-solid">View Our Collection</a>
+                                    <a href="sub-category.php" class="orange-solid">View Our Collection</a>
                                 </div>
                             </div>
                         </li>
@@ -222,7 +222,7 @@
                             <img src="images/component-placeholder.jpg">
                             <div class="collection-overlay">
                                 <h4>Wood Gates</h4>
-                                <a href="#">View Our Collection</a>
+                                <a href="sub-category.php">View Our Collection</a>
                             </div>
                             <h4>Wood Gates</h4>
                         </li>
@@ -231,7 +231,7 @@
                             <img src="images/component-placeholder.jpg">
                             <div class="collection-overlay">
                                 <h4>Aluminium Gates</h4>
-                                <a href="#">View Our Collection</a>
+                                <a href="sub-category.php">View Our Collection</a>
                             </div>
                             <h4>Aluminium Gates</h4>
                         </li>
@@ -240,7 +240,7 @@
                             <img src="images/component-placeholder.jpg">
                             <div class="collection-overlay">
                                 <h4>Composite Gates</h4>
-                                <a href="#">View Our Collection</a>
+                                <a href="sub-category.php">View Our Collection</a>
                             </div>
                             <h4>Composite Gates</h4>
                         </li>
@@ -271,7 +271,7 @@
                         Donec non risus vel felis molestie interdum.
                     </p>
 
-                    <a href="#" class="orange-solid">Discover our process</a>
+                    <a href="our-process.php" class="orange-solid">Discover our process</a>
 
                 </div>
 
@@ -282,8 +282,8 @@
 
             <h4 class="callout-heading">Wrought Iron Gates and Railings</h4>
             <p>For more information about our range of beautiful wrought iron gates.</p>
-            <a href="#" class="white-outline">Request A Brochure</a>
-            <a href="#" class="orange-solid">Make An Enquiry</a>
+            <a href="request-brochure.php" class="white-outline">Request A Brochure</a>
+            <a href="enquiry.php" class="orange-solid">Make An Enquiry</a>
 
         </div><!-- end information callout -->
 
@@ -315,7 +315,7 @@
             </div>
 
             <div class="install-btn">
-                <a href="#" class="orange-solid">View All New Installs</a>
+                <a href="new-installs.php" class="orange-solid">View All New Installs</a>
             </div>
 
         </div><!-- end installs grid -->
@@ -338,7 +338,7 @@
                         Donec non risus vel felis molestie interdum.
                     </p>
 
-                    <a href="#" class="orange-solid">Visit our showroom</a>
+                    <a href="showroom.php" class="orange-solid">Visit our showroom</a>
 
                 </div>
 

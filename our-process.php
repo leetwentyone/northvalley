@@ -25,8 +25,8 @@
                     Curabitur vitae elit porta, imperdiet quam at, volutpat neque.
                 </p>
                 <div class="textblock-btns">
-                    <a href="#" class="orange-outline">Request Brochure</a>
-                    <a href="#" class="orange-solid">Make An Enquiry</a>
+                    <a href="request-brochure.php" class="orange-outline">Request Brochure</a>
+                    <a href="enquiry.php" class="orange-solid">Make An Enquiry</a>
                 </div>
 
             </div>
@@ -55,7 +55,7 @@
                         Maecenas facilisis sapien eget mollis laoreet.
                     </p>
 
-                    <a href="#" class="orange-solid">Next steps</a>
+                    <a href="#steps" class="orange-solid">Next steps</a>
 
                 </div>
 
@@ -73,7 +73,7 @@
 
         </div><!-- end video -->
 
-        <div class="nextsteps">
+        <div class="nextsteps" id="steps">
             <div class="c-container">
 
                 <h4>Next steps, making your gate come to reality...</h4>

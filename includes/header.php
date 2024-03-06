@@ -24,11 +24,11 @@
 
       <ul class="mob-actions">
         <li><a href="tel:01282677300">Call Us: 01282 677300</a></li>
-        <li><a href="#">Make An Enquiry</a></li>
+        <li><a href="enquiry.php">Make An Enquiry</a></li>
       </ul>
 
       <div class="site-logo">
-        <img src="images/logo.png" alt="north valley forge">
+        <a href="index.php"><img src="images/logo.png" alt="north valley forge"></a>
       </div><!-- end site logo -->
 
       <ul class="mob-links">
@@ -39,47 +39,47 @@
       <div class="header-actions">
 
         <div class="top-links">
-          <a href="#">Request A Brochure</a>
-          <a href="#">Visit Our Showroom</a>
+          <a href="request-brochure.php">Request A Brochure</a>
+          <a href="showroom.php">Visit Our Showroom</a>
           <a href="tel:01282677300">01282 677300</a>
-          <a href="#">Make An Enquiry</a>
+          <a href="enquiry.php">Make An Enquiry</a>
         </div>
 
         <div class="header-navigation">
           <ul>
             <li class="has-children">
-              <a href="#">Wrought Iron Gates</a>
+              <a href="category.php">Wrought Iron Gates</a>
               <div class="submenu">
                 <div class="sub-inner">
                   <div class="submenu-title">
                     <p>Wrought Iron Gates</p>
-                    <a href="#">View All Gates</a>
+                    <a href="category.php">View All Gates</a>
                   </div> 
                   <ul class="menu-collection">
                     <li>
-                      <a href="#"><img src="images/component-placeholder-square.jpg"></a>
-                      <p><a href="#">Ultimate Collection</a></p>
+                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="sub-category.php">Ultimate Collection</a></p>
                     </li>
                     <li>
-                      <a href="#"><img src="images/component-placeholder-square.jpg"></a>
-                      <p><a href="#">Estate Gates</a></p>
+                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="sub-category.php">Estate Gates</a></p>
                     </li>
                     <li>
-                      <a href="#"><img src="images/component-placeholder-square.jpg"></a>
-                      <p><a href="#">Small Driveway Gates</a></p>
+                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="sub-category.php">Small Driveway Gates</a></p>
                     </li>
                     <li>
-                      <a href="#"><img src="images/component-placeholder-square.jpg"></a>
-                      <p><a href="#">Side &amp; Garden Gates</a></p>
+                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="sub-category.php">Side &amp; Garden Gates</a></p>
                     </li>
                 </div>
               </div>
             </li>
-            <li><a href="#">Aluminium Gates</a></li>
-            <li><a href="#">Privacy Gates</a></li>
-            <li><a href="#">Railings</a></li>
-            <li><a href="#">Balustrades &amp; Staircases</a></li>
-            <li><a href="#">New Installs</a></li>
+            <li><a href="category.php">Aluminium Gates</a></li>
+            <li><a href="category.php">Privacy Gates</a></li>
+            <li><a href="category.php">Railings</a></li>
+            <li><a href="category.php">Balustrades &amp; Staircases</a></li>
+            <li><a href="category.php">New Installs</a></li>
           </ul>
           <ul>
             <li><a href="#" class="search-toggle"><img src="images/search-white.png"></a></li>

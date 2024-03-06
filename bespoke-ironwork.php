@@ -24,8 +24,8 @@
                     Curabitur vitae elit porta, imperdiet quam at, volutpat neque.
                 </p>
                 <div class="textblock-btns">
-                    <a href="#" class="orange-outline">Request Brochure</a>
-                    <a href="#" class="orange-solid">Make An Enquiry</a>
+                    <a href="request-brochure.php" class="orange-outline">Request Brochure</a>
+                    <a href="enquiry.php" class="orange-solid">Make An Enquiry</a>
                 </div>
 
             </div>
@@ -65,7 +65,7 @@
                         Maecenas facilisis sapien eget mollis laoreet.
                     </p>
 
-                    <a href="#" class="orange-solid">View our case studies</a>
+                    <a href="casestudies.php" class="orange-solid">View our case studies</a>
 
                 </div>
 

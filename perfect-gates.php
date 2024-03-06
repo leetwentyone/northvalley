@@ -48,7 +48,7 @@
                         Donec non risus vel felis molestie interdum.
                     </p>
 
-                    <a href="#" class="orange-solid">Discover our process</a>
+                    <a href="our-process.php" class="orange-solid">Discover our process</a>
 
                 </div>
 
@@ -235,8 +235,8 @@
 
             <h4 class="callout-heading">Wrought Iron Gates and Railings</h4>
             <p>For more information about our range of beautiful wrought iron gates.</p>
-            <a href="#" class="white-outline">Request A Brochure</a>
-            <a href="#" class="orange-solid">Make An Enquiry</a>
+            <a href="request-brochure.php" class="white-outline">Request A Brochure</a>
+            <a href="enquiry.php" class="orange-solid">Make An Enquiry</a>
 
         </div><!-- end information callout -->
 

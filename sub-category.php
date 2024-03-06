@@ -14,7 +14,7 @@
                         <div class="content-box">
                             <h3 class="slide-title">Cranleigh</h3>
                             <p>Our traditional driveway and estate gates are designed to suit any style of property</p>
-                            <a href="#" class="orange-solid">View Our Collection</a>
+                            <a href="sub-category.php" class="orange-solid">View Our Collection</a>
                         </div>
                     </div>
                 </li>
@@ -51,8 +51,8 @@
                     Curabitur vitae elit porta, imperdiet quam at, volutpat neque.
                 </p>
                 <div class="textblock-btns">
-                    <a href="#" class="orange-outline">Request Brochure</a>
-                    <a href="#" class="orange-solid">Make An Enquiry</a>
+                    <a href="request-brochure.php" class="orange-outline">Request Brochure</a>
+                    <a href="enquiry.php" class="orange-solid">Make An Enquiry</a>
                 </div>
 
             </div>
@@ -66,7 +66,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Cranleigh</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Cranleigh</h4>
                     </li>
@@ -74,7 +74,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Hambledon</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Hambledon</h4>
                     </li>
@@ -82,7 +82,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Blenheim</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Blenheim</h4>
                     </li>
@@ -90,7 +90,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Warwick</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Warwick</h4>
                     </li>
@@ -98,7 +98,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Radleigh</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Radleigh</h4>
                     </li>
@@ -106,7 +106,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Langley</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Langley</h4>
                     </li>
@@ -114,7 +114,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Somerton</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Somerton</h4>
                     </li>
@@ -122,7 +122,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Salisbury</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Salisbury</h4>
                     </li>
@@ -130,7 +130,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Huntington</h4>
-                            <a href="#">View Our Collection</a>
+                            <a href="gate.php">View Our Collection</a>
                         </div>
                         <h4>Huntington</h4>
                     </li>
@@ -161,7 +161,7 @@
                         Donec non risus vel felis molestie interdum.
                     </p>
 
-                    <a href="#" class="orange-solid">Visit our showroom</a>
+                    <a href="showroom.php" class="orange-solid">Visit our showroom</a>
 
                 </div>
 

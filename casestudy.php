@@ -140,7 +140,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -148,7 +148,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -156,7 +156,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>

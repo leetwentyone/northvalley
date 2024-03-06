@@ -14,7 +14,7 @@
                         <div class="content-box">
                             <h3 class="slide-title">Case Study One</h3>
                             <p>Morbi congue scelerisque diam, ac tempor libero dapibus nec.</p>
-                            <a href="#" class="orange-solid">View Case Study</a>
+                            <a href="casestudy.php" class="orange-solid">View Case Study</a>
                         </div>
                     </div>
                 </li>
@@ -62,7 +62,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -70,7 +70,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -78,7 +78,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -86,7 +86,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -94,7 +94,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -102,7 +102,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -110,7 +110,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -118,7 +118,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
@@ -126,7 +126,7 @@
                         <img src="images/component-placeholder-square.jpg">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
-                            <a href="#">View Case Study</a>
+                            <a href="casestudy.php">View Case Study</a>
                         </div>
                         <h4>Case Study Name</h4>
                     </li>
