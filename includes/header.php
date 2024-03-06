@@ -28,7 +28,7 @@
       </ul>
 
       <div class="site-logo">
-        logo
+        <img src="images/logo.png" alt="north valley forge">
       </div><!-- end site logo -->
 
       <ul class="mob-links">

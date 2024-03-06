@@ -25,6 +25,8 @@
             
             <div class="footer-col">
 
+                <img src="images/logo.png" alt="north valley forge">
+
                 <p>&copy; North Valley Forge 2024. All Rights Reserved.<br>Created by <a href="#">21digital.agency</a></p>
 
                 <ul>
