@@ -25,7 +25,7 @@
                 </p>
                 <div class="textblock-btns">
                     <a href="request-brochure.php" class="orange-outline">Request Brochure</a>
-                    <a href="enquiry.php" class="orange-solid">Make An Enquiry</a>
+                    <a href="#quoteform" class="orange-solid">Make An Enquiry</a>
                 </div>
 
             </div>
@@ -79,7 +79,7 @@
             </div>
         </div><!-- end text and image col -->
 
-        <div class="quote-form">
+        <div class="quote-form" id="quoteform">
             <div class="c-container">
 
                 <h4>Get A Quote</h4>

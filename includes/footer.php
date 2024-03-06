@@ -30,9 +30,9 @@
                 <p>&copy; North Valley Forge 2024. All Rights Reserved.<br>Created by <a href="#">21digital.agency</a></p>
 
                 <ul>
-                    <li><a href="#">Cookies</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="misc.php">Cookies</a></li>
+                    <li><a href="misc.php">Privacy</a></li>
+                    <li><a href="misc.php">Terms &amp; Conditions</a></li>
                 </ul>
 
             </div>
@@ -42,12 +42,12 @@
                 <h6>Our Services</h6>
 
                 <ul>
-                    <li><a href="#">Wrought Iron Gates</a></li>
-                    <li><a href="#">Privacy Gates</a></li>
-                    <li><a href="#">Railings</a></li>
-                    <li><a href="#">Balustrades</a></li>
-                    <li><a href="#">Staircases</a></li>
-                    <li><a href="#">Electric Gates</a></li>
+                    <li><a href="category.php">Wrought Iron Gates</a></li>
+                    <li><a href="category.php">Privacy Gates</a></li>
+                    <li><a href="category.php">Railings</a></li>
+                    <li><a href="category.php">Balustrades</a></li>
+                    <li><a href="category.php">Staircases</a></li>
+                    <li><a href="category.php">Electric Gates</a></li>
                 </ul>
 
             </div>
@@ -57,12 +57,12 @@
                 <h6>Help &amp; Advice</h6>
 
                 <ul>
-                    <li><a href="#">Choosing the perfect gates</a></li>
-                    <li><a href="#">The Process</a></li>
-                    <li><a href="#">New Installs</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Visit Our Showroom</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="perfect-gates.php">Choosing the perfect gates</a></li>
+                    <li><a href="our-process.php">The Process</a></li>
+                    <li><a href="new-installs.php">New Installs</a></li>
+                    <li><a href="casestudes.php">Case Studies</a></li>
+                    <li><a href="showroom.php">Visit Our Showroom</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
 
             </div>
