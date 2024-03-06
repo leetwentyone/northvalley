@@ -2034,7 +2034,8 @@ body.search-activated {
 
 .nextsteps {
   padding: 60px 20px;
-  background-color: #F7F6F2; }
+  background-color: #F7F6F2;
+  scroll-margin: 100px; }
   .nextsteps h4 {
     width: 100%;
     text-align: center;
