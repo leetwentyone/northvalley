@@ -1369,6 +1369,13 @@ body.search-activated {
         display: none; } }
     .textblock h1:only-child {
       margin-bottom: 0; }
+    .body-error .textblock h1 {
+      font-size: 80px;
+      line-height: 80px; }
+      @media (min-width: 768px) {
+        .body-error .textblock h1 {
+          font-size: 150px;
+          line-height: 150px; } }
   .textblock p {
     width: 100%;
     text-align: center; }
