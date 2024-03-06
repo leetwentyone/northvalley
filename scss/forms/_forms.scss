@@ -194,11 +194,13 @@ input[type="submit"] {
 
 .checkbox-inline {
     display: inline-block;
-    width: auto;
+    width: 100%;
     color: $copy;
 
-    &:not(:first-of-type) {
-        margin-left: 20px;
+    > div {
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 49%;
     }
 
     input {

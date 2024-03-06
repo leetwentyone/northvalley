@@ -1,0 +1,47 @@
+.request {
+	background-color: $beige;
+	padding: 60px 20px;
+	width: 100%;
+
+	.c-container {
+		display: flex;
+		flex-direction: column;
+
+		@include breakpoint(tablet) {
+			flex-direction: row;
+		}
+	}
+
+	.col-l {
+		width: 100%;
+
+		@include breakpoint(tablet) {
+			width: 50%;
+		}
+	}
+
+	.col-r {
+		width: 100%;
+
+		@include breakpoint(tablet) {
+			width: 50%;
+			padding-left: 30px;
+		}
+
+		@include breakpoint(desktop) {
+			padding-left: 60px;
+		}
+	}
+
+	form {
+		padding-top: 0;
+	}
+
+	button[type="submit"] {
+		@extend .orange-solid;
+	}
+
+	img {
+		margin-bottom: 30px;
+	}
+}
