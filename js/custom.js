@@ -16,12 +16,20 @@ jQuery(function($){
   });
 });
 
-/* Menu Toggle */
+/* Add class to body when menu opened */
 jQuery(function($){
-  jQuery(document).on('click','.open-menu',function(e){
-    e.stopPropagation();
-    jQuery(".side-header").toggleClass("menu-open");
-    jQuery("body").toggleClass("side-menu--opened");
+  jQuery('.toggle-menu').on('click',function () {
+    jQuery(".menu-reveal").toggleClass("opened");
+    jQuery("body").toggleClass("menu-active");
+  });
+});
+
+/* Close Menu */
+jQuery(function($){
+  jQuery('.close-menu').on('click',function () {
+    jQuery(".menu-reveal").removeClass("opened");
+    jQuery(".dropdown-menu").removeClass("menu-mobile-open");
+    jQuery("body").removeClass("menu-active");
   });
 });
 
