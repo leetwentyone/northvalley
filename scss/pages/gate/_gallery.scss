@@ -4,6 +4,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
+    .body-showroom & {
+        border-bottom: 0;
+    }
+
     h3 {
         margin: 0;
         padding-bottom: 60px;

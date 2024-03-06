@@ -32,6 +32,10 @@
     @include breakpoint(desktop) {
         width: 20%;
     }
+
+    img {
+        max-width: 150px;
+    }
 }
 
 .header-actions {

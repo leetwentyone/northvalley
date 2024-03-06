@@ -61,6 +61,10 @@
             &::placeholder {
                 color: $copy;
             }
+
+            &:focus {
+                outline: none;
+            }
         }
 
         button[type="submit"] {
