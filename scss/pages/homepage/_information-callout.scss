@@ -28,8 +28,19 @@
     }
 
     a {
+        width: 200px;
+
+        @include breakpoint(phablet) {
+            width: auto;
+        }
+
         + a {
-            margin-left: 20px;
+            margin-top: 10px;
+
+            @include breakpoint(phablet) {
+                margin-top: 0;
+                margin-left: 20px;
+            }
         }
     }
 

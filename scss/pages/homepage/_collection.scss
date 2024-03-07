@@ -1,5 +1,9 @@
 .collections {
-    padding: 60px 20px calc(60px - 2%) 20px;
+    padding: 60px 20px calc(20px - 2%) 20px;
+
+    @include breakpoint(tablet) {
+        padding: 60px 20px calc(60px - 2%) 20px;
+    }
 
     .body-category & {
         padding-top: 0;

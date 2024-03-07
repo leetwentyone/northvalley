@@ -1,5 +1,9 @@
 .instagram {
-    padding: 60px 20px calc(60px - 1%) 20px;
+    padding: 60px 20px calc(40px - 1%) 20px;
+
+    @include breakpoint(tablet) {
+        padding: 60px 20px calc(60px - 1%) 20px; 
+    }
 
     .body-showroom & {
         border-top: 1px solid $orange;

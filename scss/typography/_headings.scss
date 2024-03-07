@@ -3,11 +3,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: $copy;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 26px;
     margin-bottom: 30px;
 
     @include breakpoint(desktop) {
         font-size: 30px;
-        line-height: 40px;
+        line-height: 36px;
     }
 }
