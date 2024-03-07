@@ -2810,8 +2810,11 @@ body.lb-disable-scrolling {
         right: 10px; } }
 
 .image-slider {
-  padding: 60px;
+  padding: 30px 60px;
   background-color: #F7F6F2; }
+  @media (min-width: 768px) {
+    .image-slider {
+      padding: 60px; } }
   .image-slider img {
     width: 100%; }
   .image-slider li {

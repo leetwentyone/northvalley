@@ -1,6 +1,10 @@
 .image-slider {
-    padding: 60px;
+    padding: 30px 60px;
     background-color: $beige;
+
+    @include breakpoint(tablet) {
+        padding: 60px;
+    }
 
     img {
         width: 100%;
