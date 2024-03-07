@@ -32,4 +32,12 @@
             margin-left: 20px;
         }
     }
+
+    .orange-solid {
+
+        &:hover {
+            background-color: $white;
+            border-color: $white;
+        }
+    }
 }

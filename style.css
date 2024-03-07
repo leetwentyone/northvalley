@@ -1003,14 +1003,13 @@ iframe {
       justify-content: center;
       list-style: none;
       line-height: 0 !important;
-      font-size: 14px !important;
-      margin-left: 15px; }
+      font-size: 14px !important; }
       @media (min-width: 1152px) {
         .header-navigation ul:not(.menu-collection) li:not(.menu-collection li) {
           font-size: 16px !important; } }
     .header-navigation ul:not(.menu-collection) a:not(.submenu-title a):not(.menu-collection a) {
       display: block;
-      padding: 10px 5px 20px 5px !important;
+      padding: 10px 20px 20px 5px;
       color: #fff;
       font-size: 12px;
       line-height: 12px; }
@@ -1021,7 +1020,20 @@ iframe {
       @media (min-width: 1366px) {
         .header-navigation ul:not(.menu-collection) a:not(.submenu-title a):not(.menu-collection a) {
           font-size: 16px;
-          line-height: 16px; } }
+          line-height: 16px;
+          padding: 10px 30px 20px 5px; } }
+    .header-navigation ul:not(.menu-collection) .has-children a:not(.submenu a) {
+      background-image: url("images/plus-white.png");
+      background-repeat: no-repeat;
+      background-size: 10px;
+      background-position: top 11px right 5px; }
+      @media (min-width: 1152px) {
+        .header-navigation ul:not(.menu-collection) .has-children a:not(.submenu a) {
+          background-position: top 13px right 5px; } }
+      @media (min-width: 1366px) {
+        .header-navigation ul:not(.menu-collection) .has-children a:not(.submenu a) {
+          background-size: 15px;
+          background-position: top 11px right 10px; } }
   .header-navigation img:not(.menu-collection img) {
     max-width: 20px; }
 
@@ -2535,6 +2547,9 @@ body.lb-disable-scrolling {
     color: #fff; }
   .information-callout a + a {
     margin-left: 20px; }
+  .information-callout .orange-solid:hover, .information-callout .getintouch button[type="submit"]:hover, .getintouch .information-callout button[type="submit"]:hover, .information-callout .request button[type="submit"]:hover, .request .information-callout button[type="submit"]:hover {
+    background-color: #fff;
+    border-color: #fff; }
 
 .installs-grid {
   padding: 10px;
