@@ -1,8 +1,13 @@
 .gallery-slider {
     border-top: 1px solid $orange;
     border-bottom: 1px solid $orange;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @include breakpoint(tablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
     .body-showroom & {
         border-bottom: 0;
@@ -10,9 +15,13 @@
 
     h3 {
         margin: 0;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
         width: 100%;
         text-align: center;
+
+        @include breakpoint(tablet) {
+            padding-bottom: 60px;
+        }
     }
 
     img {
@@ -21,6 +30,14 @@
 
     li {
         list-style: none;
+    }
+
+    ul.main {
+
+        @media(max-width: 767px) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
     }
 
     ul.thumbnails {
@@ -38,11 +55,19 @@
         background-image: url('images/dark-arrow2.png');
         background-size: 25px;
         background-color: transparent;
+
+        @media(max-width: 767px) {
+            left: 10px;
+        }
     }
 
     .slick-next {
         background-image: url('images/dark-arrow.png');
         background-size: 25px;
         background-color: transparent;
+
+        @media(max-width: 767px) {
+            right: 10px;
+        }
     }
 }

@@ -13,22 +13,30 @@
     .slick-prev {
         background-color: $darkgrey;
         background-image: url('images/white-arrow2.png');
-        background-size: 25px;
-        left: -50px;
+        background-size: 15px;
+        left: -45px;
+        width: 35px;
+        height: 35px;
 
         @include breakpoint(tablet) {
             left: 30px;
+            width: 50px;
+            height: 50px;
+            background-size: 25px;
         }
     }
 
     .slick-next {
         background-color: $darkgrey;
         background-image: url('images/white-arrow.png');
-        background-size: 25px;
-        right: -50px;
+        background-size: 15px;
+        width: 35px;
+        height: 35px;
+        right: -45px;
 
         @include breakpoint(tablet) {
             right: 30px;
+            background-size: 25px;
         }
     }
 }

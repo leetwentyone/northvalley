@@ -71,8 +71,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
   font-weight: 600;
   color: #495057;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 24px;
+  line-height: 30px;
   margin-bottom: 30px; }
   @media (min-width: 1152px) {
     h1, h2, h3, h4, h5, h6 {
@@ -237,7 +237,10 @@ input[type="submit"] {
 
 .quote-form {
   background-color: #F7F6F2;
-  padding: 60px 20px; }
+  padding: 30px 20px; }
+  @media (min-width: 768px) {
+    .quote-form {
+      padding: 60px 20px; } }
   .quote-form .c-container, .quote-form nav.primary ul:not(.sub-menu), nav.primary .quote-form ul:not(.sub-menu), .quote-form .sub-inner, .quote-form .key-messages ul, .key-messages .quote-form ul, .quote-form .overlay-content, .quote-form article {
     width: 90%;
     max-width: 600px;
@@ -245,7 +248,10 @@ input[type="submit"] {
   .quote-form h4 {
     width: 100%;
     text-align: center;
-    margin-bottom: 60px; }
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .quote-form h4 {
+        margin-bottom: 60px; } }
   .quote-form form {
     padding: 0; }
   .quote-form label {
@@ -2357,6 +2363,10 @@ body.lb-disable-scrolling {
       transition: all .3s ease;
       opacity: 1;
       z-index: 5; }
+      @media (max-width: 767px) {
+        .collections li h4:not(.collection-overlay h4) {
+          font-size: 20px;
+          line-height: 26px; } }
     .collections li:hover h4:not(.collection-overlay h4) {
       opacity: 0; }
     .collections li:hover .collection-overlay h4, .collections li:hover .collection-overlay a {
@@ -2383,6 +2393,10 @@ body.lb-disable-scrolling {
     color: #fff; }
   .collection-overlay h4 {
     margin-bottom: 5px; }
+    @media (max-width: 767px) {
+      .collection-overlay h4 {
+        font-size: 20px;
+        line-height: 26px; } }
   .collection-overlay a {
     display: block;
     position: relative;
@@ -2400,7 +2414,7 @@ body.lb-disable-scrolling {
       padding: 60px 20px; } }
 .textimage-col.default-theme {
   background-color: #fff;
-  padding: 60px 20px 30px 20px; }
+  padding: 20px 20px 30px 20px; }
   @media (min-width: 768px) {
     .textimage-col.default-theme {
       padding: 60px 20px; } }
@@ -2598,17 +2612,21 @@ body.lb-disable-scrolling {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 60px; }
+  padding-top: 30px; }
   @media (min-width: 768px) {
     .installs-grid {
       flex-direction: row;
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      padding-top: 60px; } }
   .installs-grid h4 {
     width: 100%;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px; }
+    @media (min-width: 768px) {
+      .installs-grid h4 {
+        margin-bottom: 60px; } }
   .installs-grid .single-image {
     width: 100%; }
     @media (min-width: 768px) {
@@ -2675,7 +2693,7 @@ body.lb-disable-scrolling {
       padding: 20px 20px 20px 20px; } }
 
 .instagram {
-  padding: 60px 20px calc(40px - 1%) 20px; }
+  padding: 30px 20px calc(40px - 1%) 20px; }
   @media (min-width: 768px) {
     .instagram {
       padding: 60px 20px calc(60px - 1%) 20px; } }
@@ -2683,8 +2701,11 @@ body.lb-disable-scrolling {
     border-top: 1px solid #f3722c; }
   .instagram h4 {
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     text-align: center; }
+    @media (min-width: 768px) {
+      .instagram h4 {
+        margin-bottom: 60px; } }
   .instagram ul {
     display: flex;
     flex-flow: row wrap;
@@ -2742,19 +2763,30 @@ body.lb-disable-scrolling {
 .gallery-slider {
   border-top: 1px solid #f3722c;
   border-bottom: 1px solid #f3722c;
-  padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  @media (min-width: 768px) {
+    .gallery-slider {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
   .body-showroom .gallery-slider {
     border-bottom: 0; }
   .gallery-slider h3 {
     margin: 0;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     width: 100%;
     text-align: center; }
+    @media (min-width: 768px) {
+      .gallery-slider h3 {
+        padding-bottom: 60px; } }
   .gallery-slider img {
     width: 100%; }
   .gallery-slider li {
     list-style: none; }
+  @media (max-width: 767px) {
+    .gallery-slider ul.main {
+      padding-left: 20px;
+      padding-right: 20px; } }
   .gallery-slider ul.thumbnails {
     margin-top: 30px;
     padding-left: 60px;
@@ -2766,10 +2798,16 @@ body.lb-disable-scrolling {
     background-image: url("images/dark-arrow2.png");
     background-size: 25px;
     background-color: transparent; }
+    @media (max-width: 767px) {
+      .gallery-slider .slick-prev {
+        left: 10px; } }
   .gallery-slider .slick-next {
     background-image: url("images/dark-arrow.png");
     background-size: 25px;
     background-color: transparent; }
+    @media (max-width: 767px) {
+      .gallery-slider .slick-next {
+        right: 10px; } }
 
 .image-slider {
   padding: 60px;
@@ -2781,19 +2819,27 @@ body.lb-disable-scrolling {
   .image-slider .slick-prev {
     background-color: #495057;
     background-image: url("images/white-arrow2.png");
-    background-size: 25px;
-    left: -50px; }
+    background-size: 15px;
+    left: -45px;
+    width: 35px;
+    height: 35px; }
     @media (min-width: 768px) {
       .image-slider .slick-prev {
-        left: 30px; } }
+        left: 30px;
+        width: 50px;
+        height: 50px;
+        background-size: 25px; } }
   .image-slider .slick-next {
     background-color: #495057;
     background-image: url("images/white-arrow.png");
-    background-size: 25px;
-    right: -50px; }
+    background-size: 15px;
+    width: 35px;
+    height: 35px;
+    right: -45px; }
     @media (min-width: 768px) {
       .image-slider .slick-next {
-        right: 30px; } }
+        right: 30px;
+        background-size: 25px; } }
 
 .video-container {
   padding: 30px;

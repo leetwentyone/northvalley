@@ -1,5 +1,5 @@
 .instagram {
-    padding: 60px 20px calc(40px - 1%) 20px;
+    padding: 30px 20px calc(40px - 1%) 20px;
 
     @include breakpoint(tablet) {
         padding: 60px 20px calc(60px - 1%) 20px; 
@@ -11,8 +11,12 @@
 
     h4 {
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         text-align: center;
+
+        @include breakpoint(tablet) {
+            margin-bottom: 60px;
+        }
     }
 
     ul {
