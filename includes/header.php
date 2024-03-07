@@ -78,7 +78,34 @@
                 </div>
               </div>
             </li>
-            <li><a href="category.php">Aluminium Gates</a></li>
+            <li class="has-children">
+              <a href="category.php">Aluminium Gates</a>
+              <div class="submenu">
+                <div class="sub-inner">
+                  <div class="submenu-title">
+                    <p>Aluminium Gates</p>
+                    <a href="category.php">View All Gates</a>
+                  </div> 
+                  <ul class="menu-collection">
+                    <li>
+                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="sub-category.php">Small Aluminium Gates</a></p>
+                    </li>
+                    <li>
+                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="sub-category.php">Industrial Aluminium Gates</a></p>
+                    </li>
+                    <li>
+                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="sub-category.php">Estate Aluminium Gates</a></p>
+                    </li>
+                    <li>
+                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <p><a href="sub-category.php">Side &amp; Garden Gates</a></p>
+                    </li>
+                </div>
+              </div>
+            </li>
             <li><a href="category.php">Privacy Gates</a></li>
             <li><a href="category.php">Railings</a></li>
             <li><a href="category.php">Balustrades &amp; Staircases</a></li>

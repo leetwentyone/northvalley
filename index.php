@@ -324,7 +324,7 @@
             <div class="c-container">
 
                 <div class="video-col">
-                    <a href="#"><img src="images/placeholder-img1.jpg"></a>
+                    <a href="//vimeo.com/1084537" data-lity><img src="images/placeholder-img1.jpg"></a>
                 </div>
 
                 <div class="text-col">
