@@ -35,28 +35,23 @@ table {
 /* Extra Extra Large Desktop Screens */
 /* Maximum width of our site content */
 @font-face {
-  font-family: 'silka_monoregular';
-  src: url("fonts/silkamono-regular-webfont.eot");
-  src: url("fonts/silkamono-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/silkamono-regular-webfont.woff2") format("woff2"), url("fonts/silkamono-regular-webfont.ttf") format("truetype");
+  font-family: 'archiaregular';
+  src: url("fonts/archia-regular-webfont.eot");
+  src: url("fonts/archia-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/archia-regular-webfont.woff2") format("woff2"), url("fonts/archia-regular-webfont.woff") format("woff"), url("fonts/archia-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'argesta_displayregular';
-  src: url("fonts/argestadisplay-regular-webfont.eot");
-  src: url("fonts/argestadisplay-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/argestadisplay-regular-webfont.woff2") format("woff2"), url("fonts/argestadisplay-regular-webfont.woff") format("woff"), url("fonts/argestadisplay-regular-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'argesta_displayregular_italic';
-  src: url("fonts/argestadisplay-regularitalic-webfont.eot");
-  src: url("fonts/argestadisplay-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/argestadisplay-regularitalic-webfont.woff2") format("woff2"), url("fonts/argestadisplay-regularitalic-webfont.woff") format("woff"), url("fonts/argestadisplay-regularitalic-webfont.ttf") format("truetype");
+  font-family: 'archiabold';
+  src: url("fonts/archia-bold-webfont.eot");
+  src: url("fonts/archia-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/archia-bold-webfont.woff2") format("woff2"), url("fonts/archia-bold-webfont.woff") format("woff"), url("fonts/archia-bold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 p {
   font-size: 14px;
   line-height: 20px;
   color: #495057;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: "archiaregular"; }
   @media (min-width: 1152px) {
     p {
       font-size: 16px;
@@ -68,7 +63,7 @@ p {
       color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: "archiabold";
   font-weight: 600;
   color: #495057;
   font-size: 24px;
@@ -233,7 +228,13 @@ input[type="submit"] {
   color: #495057; }
   .checkbox-inline > div {
     display: inline-block;
-    width: 49%; }
+    width: 49%;
+    font-size: 12px;
+    line-height: 16px; }
+    @media (min-width: 1152px) {
+      .checkbox-inline > div {
+        font-size: 14px;
+        line-height: 18px; } }
 
 .quote-form {
   background-color: #F7F6F2;
@@ -301,6 +302,7 @@ tbody td:last-of-type {
   border-width: 1px;
   border-style: solid;
   padding: 15px 25px;
+  font-family: "archiaregular";
   font-size: 12px;
   line-height: 12px;
   font-weight: 600;
@@ -1616,13 +1618,14 @@ iframe {
     z-index: 500; }
   .search-container p {
     margin: 0;
+    text-align: center;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700; }
     .search-container p ~ p {
       font-weight: 400;
-      font-size: 16px;
-      line-height: 22px; }
+      font-size: 14px;
+      line-height: 18px; }
       @media (min-width: 1152px) {
         .search-container p ~ p {
           font-size: 18px;
@@ -1640,11 +1643,13 @@ iframe {
     .search-container form input {
       height: 70px;
       width: calc(100% - 90px);
+      border-right: 0;
       padding-left: 15px;
-      font-size: 18px; }
+      font-size: 14px; }
       @media (min-width: 768px) {
         .search-container form input {
-          width: calc(100% - 150px); } }
+          width: calc(100% - 150px);
+          font-size: 18px; } }
       .search-container form input::placeholder {
         color: #495057; }
       .search-container form input:focus {
@@ -2164,13 +2169,12 @@ body.lb-disable-scrolling {
 .contact-methods {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   margin-top: 40px; }
   @media (min-width: 768px) {
     .contact-methods {
       width: 80%;
-      justify-content: space-between;
       margin: 40px auto 0 auto; } }
   @media (min-width: 1152px) {
     .contact-methods {
@@ -3396,7 +3400,7 @@ article {
       margin-bottom: 30px; }
     .faq-item .faq-answer li {
       color: #495057;
-      font-weight: 300; }
+      font-weight: 400; }
       .faq-item .faq-answer li:not(:last-of-type) {
         margin-bottom: 5px; }
     .faq-item .faq-answer.open {
@@ -3404,8 +3408,11 @@ article {
 
 .getintouch {
   background-color: #F7F6F2;
-  padding: 60px 20px;
+  padding: 30px 20px;
   width: 100%; }
+  @media (min-width: 768px) {
+    .getintouch {
+      padding: 60px 20px; } }
   .getintouch .c-container, .getintouch nav.primary ul:not(.sub-menu), nav.primary .getintouch ul:not(.sub-menu), .getintouch .sub-inner, .getintouch .key-messages ul, .key-messages .getintouch ul, .getintouch .overlay-content, .getintouch article {
     display: flex;
     flex-direction: column; }
@@ -3487,8 +3494,11 @@ article {
 
 .request {
   background-color: #F7F6F2;
-  padding: 60px 20px;
+  padding: 30px 20px;
   width: 100%; }
+  @media (min-width: 768px) {
+    .request {
+      padding: 60px 20px; } }
   .request .c-container, .request nav.primary ul:not(.sub-menu), nav.primary .request ul:not(.sub-menu), .request .sub-inner, .request .key-messages ul, .key-messages .request ul, .request .overlay-content, .request article {
     display: flex;
     flex-direction: column; }
@@ -3496,10 +3506,12 @@ article {
       .request .c-container, .request nav.primary ul:not(.sub-menu), nav.primary .request ul:not(.sub-menu), .request .sub-inner, .request .key-messages ul, .key-messages .request ul, .request .overlay-content, .request article {
         flex-direction: row; } }
   .request .col-l {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 30px; }
     @media (min-width: 768px) {
       .request .col-l {
-        width: 50%; } }
+        width: 50%;
+        margin-bottom: 0; } }
   .request .col-r {
     width: 100%; }
     @media (min-width: 768px) {
@@ -3510,7 +3522,8 @@ article {
       .request .col-r {
         padding-left: 60px; } }
   .request form {
-    padding-top: 0; }
+    padding-top: 0;
+    padding-bottom: 0; }
   .request input[type="checkbox"] {
     margin: 0 7px 15px 0px; }
   .request .html-block {

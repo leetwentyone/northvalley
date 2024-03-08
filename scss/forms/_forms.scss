@@ -201,6 +201,13 @@ input[type="submit"] {
     > div {
         display: inline-block;
         width: 49%;
+        font-size: 12px;
+        line-height: 16px;
+
+        @include breakpoint(desktop) {
+            font-size: 14px;
+            line-height: 18px;
+        }
     }
 }
 

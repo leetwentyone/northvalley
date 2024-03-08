@@ -21,14 +21,15 @@
 
     p {
         margin: 0;
+        text-align: center;
         font-size: 30px;
         line-height: 36px;
         font-weight: 700;
 
         ~ p {
             font-weight: 400;
-            font-size: 16px;
-            line-height: 22px;
+            font-size: 14px;
+            line-height: 18px;
 
             @include breakpoint(desktop) {
                 font-size: 18px;
@@ -56,11 +57,13 @@
         input {
             height: 70px;
             width: calc(100% - 90px);
+            border-right: 0;
             padding-left: 15px;
-            font-size: 18px;
+            font-size: 14px;
 
             @include breakpoint(tablet) {
                 width: calc(100% - 150px);
+                font-size: 18px;
             }
 
             &::placeholder {
