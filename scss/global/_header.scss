@@ -92,6 +92,7 @@
 
         &:last-of-type {
             background-color: $orange;
+            font-family: $archiareg;
             padding: 15px 20px;
 
             @include breakpoint(desktop) {

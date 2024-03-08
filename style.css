@@ -528,6 +528,7 @@ body.menu-opened {
     padding: 5px 15px;
     display: block;
     color: #000;
+    font-family: "archiaregular";
     line-height: 26px;
     font-size: 13px;
     text-transform: capitalize; }
@@ -604,6 +605,7 @@ body.menu-opened {
   line-height: 55px;
   text-align: left;
   padding: 0 0 0 15px;
+  font-family: "archiabold";
   font-size: 14px;
   cursor: pointer;
   color: #000;
@@ -965,6 +967,7 @@ iframe {
       margin-right: 10px; }
     .top-links a:last-of-type {
       background-color: #f3722c;
+      font-family: "archiaregular";
       padding: 15px 20px; }
       @media (min-width: 1152px) {
         .top-links a:last-of-type {
@@ -1111,7 +1114,15 @@ iframe {
   padding-bottom: 60px;
   text-align: center; }
   .newsletter h5 {
-    color: #fff; }
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .newsletter h5 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px; } }
   .newsletter .newsletter-inner {
     display: flex;
     flex-direction: column;
@@ -1161,6 +1172,7 @@ iframe {
     .newsletter form button[type="submit"] {
       background-color: #f3722c;
       color: #fff;
+      font-family: "archiabold";
       border: 0;
       height: 50px;
       width: 90px; }
@@ -1334,6 +1346,19 @@ iframe {
         bottom: unset; } }
     .footer-inner .scrollup:hover {
       text-decoration: none; }
+      .footer-inner .scrollup:hover:before {
+        background-color: rgba(243, 114, 44, 0.3);
+        transform: scale(0.8); }
+    .footer-inner .scrollup:before {
+      content: "";
+      display: block;
+      position: absolute;
+      background-color: rgba(243, 114, 44, 0);
+      width: 100%;
+      height: 100%;
+      transition: all .3s ease;
+      border-radius: 100%;
+      transform: scale(0); }
 
 .key-messages {
   background-color: #F7F6F2;
@@ -2223,6 +2248,9 @@ body.lb-disable-scrolling {
   position: relative; }
   .slider li {
     position: relative; }
+  .slider picture,
+  .slider img {
+    width: 100%; }
 
 .slider-content {
   display: flex;
