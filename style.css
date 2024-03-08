@@ -2490,7 +2490,7 @@ body.lb-disable-scrolling {
     object-fit: cover; }
 .textimage-col .text-col {
   width: 100%;
-  padding: 30px 0; }
+  padding: 30px 0 0 0; }
   @media (min-width: 768px) {
     .textimage-col .text-col {
       width: 50%;
@@ -2845,7 +2845,7 @@ body.lb-disable-scrolling {
         background-size: 25px; } }
 
 .video-container {
-  padding: 30px;
+  padding: 20px;
   background-color: #fff; }
   @media (min-width: 768px) {
     .video-container {
@@ -2871,9 +2871,12 @@ body.lb-disable-scrolling {
       background-position: center; }
 
 .nextsteps {
-  padding: 60px 20px;
+  padding: 60px 20px 0 20px;
   background-color: #F7F6F2;
   scroll-margin: 100px; }
+  @media (min-width: 768px) {
+    .nextsteps {
+      padding: 60px 20px; } }
   .nextsteps h4 {
     width: 100%;
     text-align: center;
@@ -2969,7 +2972,10 @@ body.lb-disable-scrolling {
 
 .process-text {
   background-color: #F7F6F2;
-  padding: 60px 20px; }
+  padding: 30px 20px; }
+  @media (min-width: 768px) {
+    .process-text {
+      padding: 60px 20px; } }
   .process-text .c-container, .process-text nav.primary ul:not(.sub-menu), nav.primary .process-text ul:not(.sub-menu), .process-text .sub-inner, .process-text .key-messages ul, .key-messages .process-text ul, .process-text .overlay-content, .process-text article {
     display: flex;
     flex-direction: column; }
@@ -2987,7 +2993,13 @@ body.lb-disable-scrolling {
 
 .installs {
   padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-bottom: 1px solid #f3722c; }
+  @media (min-width: 768px) {
+    .installs {
+      padding-left: 0;
+      padding-right: 0; } }
   .installs ul {
     width: 100%; }
     @media (min-width: 768px) {
@@ -3030,19 +3042,28 @@ body.lb-disable-scrolling {
       object-fit: cover; }
 
 article {
-  padding: 60px 20px; }
+  padding: 30px 20px; }
+  @media (min-width: 768px) {
+    article {
+      padding: 60px 20px; } }
   article h1 {
     margin-bottom: 30px; }
   article p:last-of-type {
     margin-bottom: 0; }
 
 .casestudy-gallery {
-  padding: 60px 20px;
+  padding: 30px 20px;
   background-color: #F7F6F2; }
+  @media (min-width: 768px) {
+    .casestudy-gallery {
+      padding: 60px 20px; } }
   .casestudy-gallery h2 {
     width: 100%;
     text-align: center;
-    margin-bottom: 60px; }
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .casestudy-gallery h2 {
+        margin-bottom: 60px; } }
   .casestudy-gallery ul {
     display: flex;
     flex-direction: column;
@@ -3067,7 +3088,10 @@ article {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 60px; }
+  padding-top: 30px; }
+  @media (min-width: 768px) {
+    .more-btn {
+      padding-top: 60px; } }
   .more-btn .orange-outline {
     padding-right: 50px;
     color: #000;
@@ -3109,23 +3133,25 @@ article {
       display: inline-block;
       position: relative;
       background-color: #eee;
-      width: 40px;
-      height: 30px;
+      width: 25px;
+      height: 20px;
       margin-right: 10px; }
       @media (min-width: 1152px) {
         .article-navigation nav .prev-article:before {
-          width: 60px; } }
+          width: 60px;
+          height: 30px; } }
     .article-navigation nav .next-article:after {
       content: "";
       display: inline-block;
       position: relative;
       background-color: #eee;
-      width: 40px;
-      height: 30px;
+      width: 25px;
+      height: 20px;
       margin-left: 10px; }
       @media (min-width: 1152px) {
         .article-navigation nav .next-article:after {
-          width: 60px; } }
+          width: 60px;
+          height: 30px; } }
 
 .article-share {
   display: flex;
@@ -3164,12 +3190,18 @@ article {
     line-height: 14px; }
 
 .related-articles {
-  padding: 60px 20px;
+  padding: 30px 20px;
   border-bottom: 1px solid #f3722c; }
+  @media (min-width: 768px) {
+    .related-articles {
+      padding: 60px 20px; } }
   .related-articles h5 {
     width: 100%;
     text-align: center;
-    margin-bottom: 60px; }
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .related-articles h5 {
+        margin-bottom: 60px; } }
   .related-articles ul {
     display: flex;
     flex-direction: column;
@@ -3214,8 +3246,11 @@ article {
       opacity: 1; }
 
 .choose-gates {
-  padding: 60px 20px;
+  padding: 20px 20px;
   background-color: #F7F6F2; }
+  @media (min-width: 768px) {
+    .choose-gates {
+      padding: 60px 20px; } }
   .choose-gates .c-container, .choose-gates nav.primary ul:not(.sub-menu), nav.primary .choose-gates ul:not(.sub-menu), .choose-gates .sub-inner, .choose-gates .key-messages ul, .key-messages .choose-gates ul, .choose-gates .overlay-content, .choose-gates article {
     display: flex;
     flex-direction: column;
@@ -3235,12 +3270,14 @@ article {
         align-items: flex-start;
         justify-content: center; } }
   .choose-gates .multiple-images {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 20px; }
     @media (min-width: 768px) {
       .choose-gates .multiple-images {
         display: flex;
         flex-flow: row wrap;
         width: 50%;
+        margin-bottom: 0;
         margin-right: 10px;
         height: 100%; } }
     .choose-gates .multiple-images li {
@@ -3293,11 +3330,15 @@ article {
   width: 100%;
   height: auto;
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
   @media (min-width: 1152px) {
     .faqs {
       padding-top: 60px;
-      padding-bottom: 60px; } }
+      padding-bottom: 60px;
+      padding-left: 0;
+      padding-right: 0; } }
   .body-misc .faqs {
     padding-top: 0; }
   .faqs h2, .faqs h3, .faqs h4, .faqs h5, .faqs h6 {

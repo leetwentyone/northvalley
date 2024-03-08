@@ -1,6 +1,13 @@
 .installs {
     padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-bottom: 1px solid $orange;
+
+    @include breakpoint(tablet) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     ul {
         width: 100%;

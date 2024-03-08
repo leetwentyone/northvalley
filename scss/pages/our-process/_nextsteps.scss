@@ -1,7 +1,11 @@
 .nextsteps {
-    padding: 60px 20px;
+    padding: 60px 20px 0 20px;
     background-color: $beige;
     scroll-margin: 100px;
+
+    @include breakpoint(tablet) {
+        padding: 60px 20px;
+    }
 
     h4 {
         width: 100%;
