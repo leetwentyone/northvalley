@@ -1063,10 +1063,12 @@ iframe {
       background-color: #f3722c;
       text-align: center; }
       .mob-actions li + li a {
-        font-weight: 600; }
+        font-family: "archiaregular"; }
     .mob-actions li a {
       display: block;
       width: 100%;
+      font-size: 13px;
+      line-height: 20px;
       padding: 10px 15px;
       color: #fff; }
       .mob-actions li a:hover {

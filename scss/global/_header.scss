@@ -244,13 +244,15 @@
             text-align: center;
 
             a {
-                font-weight: 600;
+                font-family: $archiareg;
             }
         }
 
         a {
             display: block;
             width: 100%;
+            font-size: 13px;
+            line-height: 20px;
             padding: 10px 15px;
             color: $white;
 
