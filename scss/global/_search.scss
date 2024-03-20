@@ -10,7 +10,10 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: $beige;
+    background-image: url('images/search/search-gate-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     transition: all .3s ease;
     z-index: -500;
 

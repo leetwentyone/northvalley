@@ -85,9 +85,22 @@
             position: relative;
             width: 20px;
             height: 20px;
-            background-color: #eee;
-            background-size: 30px;
+            background-repeat: no-repeat;
+            background-size: 25px;
+            background-position: center;
             margin-right: 10px;
+        }
+
+        &:nth-of-type(1) {
+            &:before {
+                background-image: url('images/icons/brochure-icon.png');
+            }
+        }
+
+        &:nth-of-type(2) {
+            &:before {
+                background-image: url('images/icons/showroom-icon.png');
+            }
         }
 
         &:last-of-type {
@@ -116,7 +129,7 @@
         }
 
         &:before {
-            background-image: url('images/icons/call.png');
+            background-image: url('images/icons/call-icon.png');
         }
     }
 
@@ -192,6 +205,11 @@
                         line-height: 16px;
                         padding: 10px 30px 20px 5px;
                     }
+
+                    &:hover {
+                        color: $orange;
+                        text-decoration: none;
+                    }
                 }
             }
 
@@ -220,8 +238,12 @@
 
     img {
         &:not(.menu-collection img) {
-            max-width: 20px;
+            max-width: 25px;
         }
+    }
+
+    .search-toggle {
+        padding-right: 10px!important;
     }
 }
 

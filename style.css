@@ -962,9 +962,14 @@ iframe {
       position: relative;
       width: 20px;
       height: 20px;
-      background-color: #eee;
-      background-size: 30px;
+      background-repeat: no-repeat;
+      background-size: 25px;
+      background-position: center;
       margin-right: 10px; }
+    .top-links a:nth-of-type(1):before {
+      background-image: url("images/icons/brochure-icon.png"); }
+    .top-links a:nth-of-type(2):before {
+      background-image: url("images/icons/showroom-icon.png"); }
     .top-links a:last-of-type {
       background-color: #f3722c;
       font-family: "GraphikLCGRegular";
@@ -980,7 +985,7 @@ iframe {
     .top-links a[href^="tel:"] {
       pointer-events: none; } }
   .top-links a[href^="tel:"]:before {
-    background-image: url("images/icons/call.png"); }
+    background-image: url("images/icons/call-icon.png"); }
   .top-links .search-toggle {
     display: flex;
     align-items: center;
@@ -1033,6 +1038,9 @@ iframe {
           font-size: 16px;
           line-height: 16px;
           padding: 10px 30px 20px 5px; } }
+      .header-navigation ul:not(.menu-collection) a:not(.submenu-title a):not(.menu-collection a):hover {
+        color: #f3722c;
+        text-decoration: none; }
     .header-navigation ul:not(.menu-collection) .has-children a:not(.submenu a) {
       background-image: url("images/plus-white.png");
       background-repeat: no-repeat;
@@ -1046,7 +1054,9 @@ iframe {
           background-size: 15px;
           background-position: top 11px right 10px; } }
   .header-navigation img:not(.menu-collection img) {
-    max-width: 20px; }
+    max-width: 25px; }
+  .header-navigation .search-toggle {
+    padding-right: 10px !important; }
 
 .mob-actions {
   display: none; }
@@ -1159,7 +1169,7 @@ iframe {
       font-size: 14px;
       line-height: 14px;
       padding-left: 50px;
-      background-image: url("images/email.png");
+      background-image: url("images/newsletter/email-icon.png");
       background-size: 30px;
       background-repeat: no-repeat;
       background-position: top 50% left 10px;
@@ -1208,6 +1218,8 @@ iframe {
           margin: 0; } }
       .newsletter ul li a {
         color: #f3722c; }
+      .newsletter ul li img {
+        max-width: 30px; }
 
 .footer-inner {
   display: flex;
@@ -1300,7 +1312,10 @@ iframe {
       left: 0;
       width: 30px;
       height: 30px;
-      background-color: #eee; }
+      background-image: url("images/icons/showroom-icon.png");
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center; }
   .footer-inner a[href^="tel"] {
     display: inline-flex;
     align-items: center;
@@ -1312,7 +1327,10 @@ iframe {
       width: 30px;
       height: 30px;
       margin-right: 10px;
-      background-color: #eee; }
+      background-image: url("images/icons/call-icon.png");
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center; }
     @media (min-width: 768px) {
       .footer-inner a[href^="tel"] {
         pointer-events: none; } }
@@ -1328,7 +1346,10 @@ iframe {
       width: 30px;
       height: 30px;
       margin-right: 10px;
-      background-color: #eee; }
+      background-image: url("images/icons/email-icon.png");
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center; }
   .footer-inner .scrollup {
     display: flex;
     align-items: center;
@@ -1361,6 +1382,8 @@ iframe {
       transition: all .3s ease;
       border-radius: 100%;
       transform: scale(0); }
+    .footer-inner .scrollup img {
+      max-width: 25px; }
 
 .key-messages {
   background-color: #F7F6F2;
@@ -1637,7 +1660,10 @@ iframe {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: #F7F6F2;
+  background-image: url("images/search/search-gate-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   transition: all .3s ease;
   z-index: -500; }
   .search-container.search-active {
@@ -2311,7 +2337,7 @@ body.lb-disable-scrolling {
     .slider-nav a + a {
       margin-left: 10px; }
   .slider-nav img {
-    max-width: 20px; }
+    max-width: 30px; }
 
 .texblock-2col {
   padding: 60px 20px; }
@@ -2513,7 +2539,7 @@ body.lb-disable-scrolling {
       height: 100%;
       transition: all .3s ease;
       background-color: rgba(10, 17, 40, 0.5);
-      background-image: url("images/play.png");
+      background-image: url("images/icons/video-icon.png");
       background-repeat: no-repeat;
       background-size: 80px;
       background-position: center; }
@@ -2715,10 +2741,10 @@ body.lb-disable-scrolling {
         height: 100%;
         opacity: 0;
         background-color: rgba(10, 17, 40, 0);
-        background-image: url("images/enlarge.png");
+        background-image: url("images/icons/enlarge-icon.png");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 30px;
+        background-size: 40px;
         transition: all .3s ease; }
       .installs-grid .multiple-images li:hover a {
         opacity: 1;

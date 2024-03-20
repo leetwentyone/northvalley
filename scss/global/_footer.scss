@@ -61,7 +61,7 @@
             font-size: 14px;
             line-height: 14px;
             padding-left: 50px;
-            background-image: url('images/email.png');
+            background-image: url('images/newsletter/email-icon.png');
             background-size: 30px;
             background-repeat: no-repeat;
             background-position: top 50% left 10px;
@@ -123,6 +123,10 @@
 
             a {
                 color: $orange;
+            }
+
+            img {
+                max-width: 30px;
             }
         }
     }
@@ -271,7 +275,10 @@
             left: 0;
             width: 30px;
             height: 30px;
-            background-color: #eee;
+            background-image: url('images/icons/showroom-icon.png');
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: center;
         }
     }
 
@@ -287,7 +294,10 @@
             width: 30px;
             height: 30px;
             margin-right: 10px;
-            background-color: #eee;
+            background-image: url('images/icons/call-icon.png');
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: center;
         }
 
         @include breakpoint(tablet) {
@@ -308,7 +318,10 @@
             width: 30px;
             height: 30px;
             margin-right: 10px;
-            background-color: #eee;
+            background-image: url('images/icons/email-icon.png');
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: center;
         }
     }
 
@@ -350,6 +363,10 @@
             transition: all .3s ease;
             border-radius: 100%;
             transform: scale(0);
+        }
+
+        img {
+            max-width: 25px;
         }
     }
 }
