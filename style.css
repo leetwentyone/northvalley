@@ -63,7 +63,7 @@ p {
       color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "GraphikLCGRegular";
+  font-family: "GraphikLCGSemibold";
   font-weight: 600;
   color: #495057;
   font-size: 24px;
@@ -2564,6 +2564,10 @@ body.lb-disable-scrolling {
     .collection-grid .col-large .slider-nav {
       right: 20px;
       bottom: 30px; }
+    .collection-grid .col-large .slick-slider,
+    .collection-grid .col-large .slick-list,
+    .collection-grid .col-large .slick-track {
+      height: 100%; }
   .collection-grid .col-slim {
     width: 100%; }
     @media (min-width: 768px) {

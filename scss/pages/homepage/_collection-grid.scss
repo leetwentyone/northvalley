@@ -33,6 +33,12 @@
             right: 20px;
             bottom: 30px;
         }
+
+        .slick-slider,
+        .slick-list,
+        .slick-track {
+            height: 100%;
+        }
     }
 
     .col-slim {
