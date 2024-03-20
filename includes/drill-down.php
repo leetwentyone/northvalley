@@ -3,7 +3,7 @@
     <div class="menu-container">
 
         <ul class="menu-reveal--links">
-            <li><a href="#" class="close-menu">Close</a></li>
+            <li><a href="#" class="close-menu"><img src="images/menu/close-icon.png"></a></li>
         </ul>
 
         <div class="drilldown">
@@ -193,8 +193,16 @@
 
     </div>
 
+    <div class="socials">
+        <p>Follow Us</p>
+        <ul>
+            <li><a href="#"><img src="images/menu/facebook-icon.png"></a></li>
+            <li><a href="#"><img src="images/menu/instagram-icon.png"></a></li>
+            <li><a href="#"><img src="images/menu/x-icon.png"></a></li>
+        </ul>
+    </div>
+
     <div class="bottom-links">
-        <a href="request-brochure.php">Request A Brochure</a>
         <a href="enquiry.php" class="orange-solid">Make An Enquiry</a>
     </div><!-- end bottom links -->
 
