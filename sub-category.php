@@ -47,8 +47,12 @@
 
                 <h2>Driveway Estate Gates</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sapien et ultricies dictum. Nam at pretium mi. 
-                    Curabitur vitae elit porta, imperdiet quam at, volutpat neque.
+                    Our traditional styled driveway and estate gates are designed to suit any style of property. 
+                    With a large range of gate designs to choose from, you can be sure of finding your perfect gate at North Valley Forge. 
+                </p>
+
+                <p>
+                    All of our estate gates are made to measure and we can always customise the design for you to give you a truly unique wrought iron gate.
                 </p>
                 <div class="textblock-btns">
                     <a href="request-brochure.php" class="orange-outline">Request Brochure</a>
@@ -156,9 +160,9 @@
                     <h4>Need inspiration or want to the see the quality of our work for yourselves?</h4>
 
                     <p>
-                        Mauris venenatis, dui sit amet suscipit porta, felis leo mollis massa, vel interdum arcu lacus sit amet eros. 
-                        Aliquam erat volutpat. Sed ultricies augue at erat volutpat sollicitudin. Aenean sit amet nunc diam. 
-                        Donec non risus vel felis molestie interdum.
+                        Nelson in Lancashire is the home to Europes largest electric gate showroom. We have a large selection of our gates & railings on 
+                        display which are automated using a variety of different methods to give you a real feel for the quality of our work along with how 
+                        automation might work for you.
                     </p>
 
                     <a href="showroom.php" class="orange-solid">Visit our showroom</a>

@@ -26,8 +26,8 @@
 
                 <h2>Quality wrought Iron Electric Gates &amp; Railings</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sapien et ultricies dictum. Nam at pretium mi. 
-                    Curabitur vitae elit porta, imperdiet quam at, volutpat neque.
+                    North Valley Forge is one of the premier wrought iron electric gate & railing manufacturing companies in the UK and we have been 
+                    installing superior ironwork nationwide for over 30 years.
                 </p>
                 <div class="textblock-btns">
                     <a href="request-brochure.php" class="orange-outline">Request A Brochure</a>
@@ -85,18 +85,13 @@
 
                 <div class="col-2">
                     <p>
-                        Nam id sapien ac purus fringilla malesuada at vitae nunc. Praesent mattis fermentum felis, eu dictum nibh feugiat in. 
-                        Nulla sagittis vestibulum ullamcorper. Nunc ante velit, maximus sed semper at, 
-                        suscipit eget augue. Nam rutrum augue at velit venenatis porta.
+                        Our spectacular Ultimate range of Railings, Driveway Gates and Estate Gates are crafted in-house using age-old blacksmithing techniques passed down over generations, combined with excellent modern engineering by our versatile ironworkers.
+                    </p> 
+                    <p>           
+                        Alongside our Iron Gates and Railings, we also manufacture stylish Wooden Gates to offer sophisticated privacy to any driveway.
                     </p>
                     <p>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ullamcorper imperdiet risus, 
-                        nec consequat nisi venenatis id. Nullam ac blandit tellus. Sed hendrerit mollis nibh ac commodo. 
-                        In odio diam, varius ac erat vitae, pellentesque dignissim libero.
-                    </p>
-                    <p>
-                        Proin mollis ut est vitae dapibus. Morbi tincidunt varius elit, id tincidunt quam vestibulum dictum. 
-                        Donec congue nunc sed tincidunt convallis. Ut feugiat fringilla rutrum.
+                        Our gates are all made to measure meaning you can choose the style, design and measurements of your gate to enhance the appearance and security of your home.
                     </p>
                 </div>
 
@@ -155,16 +150,12 @@
 
                     <h4>Wrought Iron Railings</h4>
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
-                        Etiam semper pretium arcu non rutrum. Maecenas semper et arcu id posuere.
+                        Complement your gates with stunning railings to top your walls or create a striking boundary to your garden with bespoke perimeter metal fencing.
                     </p>
 
                     <p>
-                        Mauris venenatis, dui sit amet suscipit porta, felis leo mollis massa, vel interdum arcu lacus sit amet eros. 
-                        Aliquam erat volutpat. Sed ultricies augue at erat volutpat sollicitudin. Aenean sit amet nunc diam. 
-                        Donec non risus vel felis molestie interdum. Sed a pellentesque urna. Sed convallis non nisi non pharetra. 
-                        Maecenas facilisis sapien eget mollis laoreet.
+                        Garden railings can be useful for keeping pets and children safe within the garden as well as being a decorative feature. 
+                        Wall top railings are not just attractive but they also serve the purpose of providing additional security at the front of your home.
                     </p>
 
                     <a href="category.php" class="orange-solid">Explore our wrought iron railings</a>
@@ -261,14 +252,12 @@
                     <p class="subheading">Our process</p>
                     <h4>From drawing board to reality...<br>The only limit is your imagination</h4>
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
+                        We have an impressive range of Electric Gates & associated Ironwork should you wish to visit our showrooms with many more designs 
+                        to view within our Ironwork catalogues and website.
                     </p>
 
                     <p>
-                        Mauris venenatis, dui sit amet suscipit porta, felis leo mollis massa, vel interdum arcu lacus sit amet eros. 
-                        Aliquam erat volutpat. Sed ultricies augue at erat volutpat sollicitudin. Aenean sit amet nunc diam. 
-                        Donec non risus vel felis molestie interdum.
+                        If you have an idea in mind already, we are happy to discuss your concepts too. We can make just about anything and always welcome a challenge!
                     </p>
 
                     <a href="our-process.php" class="orange-solid">Discover our process</a>
@@ -333,9 +322,9 @@
                     <h4>Need inspiration or want to the see the quality of our work for yourselves?</h4>
 
                     <p>
-                        Mauris venenatis, dui sit amet suscipit porta, felis leo mollis massa, vel interdum arcu lacus sit amet eros. 
-                        Aliquam erat volutpat. Sed ultricies augue at erat volutpat sollicitudin. Aenean sit amet nunc diam. 
-                        Donec non risus vel felis molestie interdum.
+                        Nelson in Lancashire is the home to Europes largest electric gate showroom. We have a large selection of our gates & railings on 
+                        display which are automated using a variety of different methods to give you a real feel for the quality of our work along with how 
+                        automation might work for you.
                     </p>
 
                     <a href="showroom.php" class="orange-solid">Visit our showroom</a>

@@ -18,11 +18,11 @@
 
                 <h2>Our Process</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    From drawing board to reality...
                 </p>
+
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sapien et ultricies dictum. Nam at pretium mi. 
-                    Curabitur vitae elit porta, imperdiet quam at, volutpat neque.
+                    We have an impressive range of Electric Gates & associated Ironwork should you wish to visit our showrooms with many more designs to view within our Ironwork catalogues and website.
                 </p>
                 <div class="textblock-btns">
                     <a href="request-brochure.php" class="orange-outline">Request Brochure</a>
@@ -43,16 +43,12 @@
 
                     <h4>Design Process</h4>
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
-                        Etiam semper pretium arcu non rutrum. Maecenas semper et arcu id posuere.
+                        Whilst our designs are purely for inspiration, you may wish to leave them exactly the way they are or perhaps make some alterations to suit 
+                        your own style. Since all of our gates are made to order, this is no problem.
                     </p>
 
                     <p>
-                        Mauris venenatis, dui sit amet suscipit porta, felis leo mollis massa, vel interdum arcu lacus sit amet eros. 
-                        Aliquam erat volutpat. Sed ultricies augue at erat volutpat sollicitudin. Aenean sit amet nunc diam. 
-                        Donec non risus vel felis molestie interdum. Sed a pellentesque urna. Sed convallis non nisi non pharetra. 
-                        Maecenas facilisis sapien eget mollis laoreet.
+                        If you have an idea in mind already, we are happy to discuss your concepts too. We can make just about anything and always welcome a challenge!
                     </p>
 
                     <a href="#steps" class="orange-solid">Next steps</a>
@@ -87,10 +83,10 @@
                         <div class="text-col">
                             <h5>Measuring</h5>
                             <p>
-                                Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                                Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. 
-                                Integer sed varius quam, vitae pharetra tortor. Aliquam erat volutpat. Sed rutrum imperdiet ex, ac efficitur felis vestibulum vel. 
-                                Morbi venenatis viverra enim nec feugiat.
+                                Once we have studied your requirements, we would visit your property to take all the necessary measurements & undertake a full site survey. 
+                                This isn’t always the case though & dependant on distance we sometimes work from client dimensions & imagery. 
+                                From a site meeting or from client imagery, we give expert advice on design, fixing methods & recommend how 
+                                we would manage such a project.
                             </p>
                         </div>
                     </li>
@@ -102,9 +98,9 @@
                         <div class="text-col">
                             <h5>CAD</h5>
                             <p>
-                                Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                                Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. 
-                                Integer sed varius quam, vitae pharetra tortor.
+                                Following an official order & in receipt of a deposit, one of our experienced CAD engineers will produce Design Drawings for your approval. 
+                                Using exact scaled dimensions, you will get a very good idea of how the finished design will look. 
+                                Once the drawings are approved these are sent to our fabrication department to be made.
                             </p>
                         </div>
                     </li>
@@ -116,8 +112,9 @@
                         <div class="text-col">
                             <h5>Fabrication</h5>
                             <p>
-                                Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                                Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. 
+                                All of our ironwork is manufactured at our main Factory & Headquarters in Nelson, Lancashire using a combination of age old 
+                                blacksmithing techniques and modern machinery.
+                                Our craftsmanship and attention to detail is evident in every aspect of our work and we ensure that our quality is always consistent. 
                             </p>
                         </div>
                     </li>
@@ -129,10 +126,10 @@
                         <div class="text-col">
                             <h5>Hot Dip Galvanising</h5>
                             <p>
-                                Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                                Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. 
-                                Integer sed varius quam, vitae pharetra tortor. Aliquam erat volutpat. Sed rutrum imperdiet ex, ac efficitur felis vestibulum vel. 
-                                Morbi venenatis viverra enim nec feugiat.
+                                Hot-dipped galvanizing is a process of coating mild steel by immersing the fabricated product in a bath of molten zinc at 
+                                a temperature of around 900 °F. This involves chemically cleaning prior to dipping to remove any substrates & once completed, 
+                                the zinc coating is fully bonded to the Ironwork. This guarantees the longest possible lifetime 
+                                for anything metal affected by outside elements, such as rain, frost or snow, along with the least maintenance also.
                             </p>
                         </div>
                     </li>
@@ -152,15 +149,12 @@
 
                     <h4>Painting</h4>
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
-                        Etiam semper pretium arcu non rutrum. Maecenas semper et arcu id posuere.
-                    </p>
-                    <p>
-                        Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                        Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. Integer sed varius quam, vitae pharetra tortor. 
-                        Aliquam erat volutpat. Sed rutrum imperdiet ex, ac efficitur felis vestibulum vel. 
-                        Morbi venenatis viverra enim nec feugiat.
+                        We paint all of our Ironwork using our own specially formulated High Build Vinyl Paint for a reliable long lasting finish. British Standard 
+                        recommendations are 80 microns of film coating to protect against outside elements & we always increase this to 120 microns. 
+                        Everything is spray painted using our electrostatically charged paint process ensuring full “wraparound” coverage. 
+                        This method ensures the smoothest and most even surface along with a soft sheen appearance. 
+                        One of the main features of this finish is that it has elastic-type properties which allows the metalwork to expand & 
+                        contract without cracking in extreme hot & cold temperatures, something that powder coating will not.
                     </p>
 
                 </div>
@@ -179,15 +173,12 @@
 
                     <h4>Finishing</h4>
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
-                        Etiam semper pretium arcu non rutrum. Maecenas semper et arcu id posuere.
-                    </p>
-                    <p>
-                        Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                        Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. Integer sed varius quam, vitae pharetra tortor. 
-                        Aliquam erat volutpat. Sed rutrum imperdiet ex, ac efficitur felis vestibulum vel. 
-                        Morbi venenatis viverra enim nec feugiat.
+                        Our metal gates and railings can be given a variety of finishes after painting including patinas. As standard we use gold, 
+                        silver & bronze brushed very lightly over the contours to highlight the detail in the work, bringing the design to life. 
+                        Alternatively, ironwork can be left with a plain painted finish or for the more extravagant option we have 
+                        Everlasting Gold paint which certain details such as Railheads, Bushes, Cages etc. 
+                        can be painted fully to give that Midas Touch. Our Hardwood gates are finished using UV protective coatings, 
+                        which not only shield the wood from fading, but also enriches the natural grain and beauty, achieving a glossy sheen.
                     </p>
 
                 </div>
@@ -206,15 +197,12 @@
 
                     <h4>Installation</h4>
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
-                        Etiam semper pretium arcu non rutrum. Maecenas semper et arcu id posuere.
-                    </p>
-                    <p>
-                        Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                        Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. Integer sed varius quam, vitae pharetra tortor. 
-                        Aliquam erat volutpat. Sed rutrum imperdiet ex, ac efficitur felis vestibulum vel. 
-                        Morbi venenatis viverra enim nec feugiat.
+                        We paint all of our Ironwork using our own specially formulated High Build Vinyl Paint for a reliable long lasting finish. 
+                        British Standard recommendations are 80 microns of film coating to protect against outside elements & we always increase this to 120 microns. 
+                        Everything is spray painted using our electrostatically charged paint process ensuring full “wraparound” coverage. 
+                        This method ensures the smoothest and most even surface along with a soft sheen appearance. One of the main features of 
+                        this finish is that it has elastic-type properties which allows the metalwork to expand & contract without cracking in extreme 
+                        hot & cold temperatures, something that powder coating will not.
                     </p>
 
                 </div>
@@ -230,15 +218,13 @@
                     <h5>Safety</h5>
 
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
-                        Etiam semper pretium arcu non rutrum. Maecenas semper et arcu id posuere.
+                        When installing automation a range of safety tests need to be carried out including force testing and CE marking before we leave site.
+                        All of this will be explained to you when you place your order including information regarding the amount of safety edges 
+                        and photocells you will need for your gate type.
                     </p>
                     <p>
-                        Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                        Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. Integer sed varius quam, vitae pharetra tortor. 
-                        Aliquam erat volutpat. Sed rutrum imperdiet ex, ac efficitur felis vestibulum vel. 
-                        Morbi venenatis viverra enim nec feugiat.
+                        Rest assured that we only ever install automation systems that are safe and 
+                        reliable as not only do we have over 30 years’ experience in this field, we are accredited members of Gate Safe and DHF.
                     </p>
 
                 </div>
@@ -248,19 +234,15 @@
                     <h5>Aftercare</h5>
 
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
-                        Etiam semper pretium arcu non rutrum. Maecenas semper et arcu id posuere.
+                        If you have chosen to have your gates automated; once all relevant safety tests have been carried out by the engineer you will receive 
+                        a ‘Handover Pack’ including all site risk assessment information and documentation including the testing procedure.
                     </p>
+
+                    <p>You also receive a 12 month parts and labour warranty from the completion date on installed automation and access control systems.</p>
+
                     <p>
-                        Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                        Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. Integer sed varius quam, vitae pharetra tortor. 
-                        Aliquam erat volutpat. Sed rutrum imperdiet ex, ac efficitur felis vestibulum vel. 
-                        Morbi venenatis viverra enim nec feugiat.
-                    </p>
-                    <p>
-                        Maecenas facilisis massa arcu, quis ornare orci cursus non. Nunc finibus ornare turpis, eu lacinia sapien. 
-                        Vivamus iaculis tincidunt pharetra. Donec commodo arcu a odio porta sollicitudin. Integer sed varius quam, vitae pharetra tortor. 
+                        Servicing is optional although we do highly recommend that you have your gates serviced annually. We have both Gold & Silver service 
+                        plans which can be explained to you.
                     </p>
 
                 </div>

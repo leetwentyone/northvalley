@@ -47,8 +47,8 @@
 
                 <h2>Wrought Iron Gates</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sapien et ultricies dictum. Nam at pretium mi. 
-                    Curabitur vitae elit porta, imperdiet quam at, volutpat neque.
+                    Our wrought iron gates embody timeless elegance and security, blending intricate designs with strength, welcoming visitors with grandeur, 
+                    and securing your home with enduring charm.
                 </p>
                 <div class="textblock-btns">
                     <a href="request-brochure.php" class="orange-outline">Request Brochure</a>
@@ -110,16 +110,12 @@
 
                     <h4>SEO Content Block</h4>
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper. 
-                        Etiam semper pretium arcu non rutrum. Maecenas semper et arcu id posuere.
+                        Complement your gates with stunning railings to top your walls or create a striking boundary to your garden with bespoke perimeter metal fencing.
                     </p>
 
                     <p>
-                        Mauris venenatis, dui sit amet suscipit porta, felis leo mollis massa, vel interdum arcu lacus sit amet eros. 
-                        Aliquam erat volutpat. Sed ultricies augue at erat volutpat sollicitudin. Aenean sit amet nunc diam. 
-                        Donec non risus vel felis molestie interdum. Sed a pellentesque urna. Sed convallis non nisi non pharetra. 
-                        Maecenas facilisis sapien eget mollis laoreet.
+                        Garden railings can be useful for keeping pets and children safe within the garden as well as being a decorative feature.
+                        Wall top railings are not just attractive but they also serve the purpose of providing additional security at the front of your home.
                     </p>
 
                     <a href="#" class="orange-solid">Explore our Iron Gates</a>
@@ -175,9 +171,9 @@
                     <h4>Need inspiration or want to the see the quality of our work for yourselves?</h4>
 
                     <p>
-                        Mauris venenatis, dui sit amet suscipit porta, felis leo mollis massa, vel interdum arcu lacus sit amet eros. 
-                        Aliquam erat volutpat. Sed ultricies augue at erat volutpat sollicitudin. Aenean sit amet nunc diam. 
-                        Donec non risus vel felis molestie interdum.
+                        Nelson in Lancashire is the home to Europes largest electric gate showroom. We have a large selection of our gates & railings on 
+                        display which are automated using a variety of different methods to give you a real feel for the quality of our work along with how 
+                        automation might work for you.
                     </p>
 
                     <a href="showroom.php" class="orange-solid">Visit our showroom</a>
