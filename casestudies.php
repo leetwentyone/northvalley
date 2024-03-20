@@ -7,8 +7,8 @@
             <ul>
                 <li>
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/casestudies/case-study-img-mob.png"><!-- Image for mobile devices -->        
+                        <img src="images/casestudies/case-study-img.png" alt=""><!-- Image for desktop screens -->
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
@@ -20,8 +20,8 @@
                 </li>
                 <li>
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/casestudies/case-study-img-mob.png"><!-- Image for mobile devices -->        
+                        <img src="images/casestudies/case-study-img.png" alt=""><!-- Image for desktop screens -->
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
@@ -59,7 +59,7 @@
 
                 <ul>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -67,7 +67,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -75,7 +75,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -83,7 +83,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -91,7 +91,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -99,7 +99,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -107,7 +107,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -115,7 +115,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -123,7 +123,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -146,11 +146,11 @@
             <div class="c-container">
 
                 <ul>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
+                    <li><img src="images/instagram/instagram-1.png"></li>
+                    <li><img src="images/instagram/instagram-2.png"></li>
+                    <li><img src="images/instagram/instagram-3.png"></li>
+                    <li><img src="images/instagram/instagram-4.png"></li>
+                    <li><img src="images/instagram/instagram-5.png"></li>
                 </ul>
 
                 <a href="#" class="orange-solid">Follow Us</a>

@@ -5,8 +5,8 @@
         <div class="hero">
 
             <picture>
-                <source media="(max-width:767px)" srcset="images/placeholder-img1-mob.jpg"><!-- Image for mobile devices -->        
-                <img src="images/placeholder-img1.jpg" alt=""><!-- Image for desktop screens -->
+                <source media="(max-width:767px)" srcset="images/home/slider/eletric-gate-specialist-mob.png"><!-- Image for mobile devices -->        
+                <img src="images/home/slider/eletric-gate-specialist.png" alt=""><!-- Image for desktop screens -->
             </picture>
 
             <div class="hero-overlay">
@@ -42,8 +42,8 @@
             <ul>
                 <li>
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/home/ultimate-collection-mob.png"><!-- Image for mobile devices -->        
+                        <img src="images/home/ultimate-collection.png" alt=""><!-- Image for desktop screens -->
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
@@ -55,8 +55,8 @@
                 </li>
                 <li>
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/home/ultimate-collection-mob.png"><!-- Image for mobile devices -->        
+                        <img src="images/home/ultimate-collection.png" alt=""><!-- Image for desktop screens -->
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
@@ -103,7 +103,7 @@
 
                 <ul>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/home/estate-gates.png">
                         <div class="collection-overlay">
                             <h4>Estate Gates</h4>
                             <a href="category.php">View Our Collection</a>
@@ -111,7 +111,7 @@
                         <h4>Estate Gates</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/home/side-and-garden-gates.png">
                         <div class="collection-overlay">
                             <h4>Side &amp; Garden Gates</h4>
                             <a href="category.php">View Our Collection</a>
@@ -119,7 +119,7 @@
                         <h4>Side &amp; Garden Gates</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/home/balustrades-and-staircases.png">
                         <div class="collection-overlay">
                             <h4>Balustrades &amp; Staircases</h4>
                             <a href="category.php">View Our Collection</a>
@@ -127,7 +127,7 @@
                         <h4>Balustrades &amp; Staircases</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/home/aluminium-gates.png">
                         <div class="collection-overlay">
                             <h4>Aluminium Gates</h4>
                             <a href="category.php">View Our Collection</a>
@@ -143,7 +143,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/home/wrought-iron-railings.png">
                 </div>
 
                 <div class="text-col">
@@ -172,8 +172,8 @@
                     <ul>
                         <li>
                             <picture>
-                                <source media="(max-width:767px)" srcset="images/component-placeholder-mob.jpg"><!-- Image for mobile devices -->        
-                                <img src="images/component-placeholder-square.jpg" alt=""><!-- Image for desktop screens -->
+                                <source media="(max-width:767px)" srcset="images/home/privacy-gates.png"><!-- Image for mobile devices -->        
+                                <img src="images/home/privacy-gates.png" alt=""><!-- Image for desktop screens -->
                             </picture>
                             <div class="slider-content">
                                 <div class="content-box">
@@ -185,8 +185,8 @@
                         </li>
                         <li>
                             <picture>
-                                <source media="(max-width:767px)" srcset="images/component-placeholder-mob.jpg"><!-- Image for mobile devices -->        
-                                <img src="images/component-placeholder-square.jpg" alt=""><!-- Image for desktop screens -->
+                                <source media="(max-width:767px)" srcset="images/home/privacy-gates.png"><!-- Image for mobile devices -->        
+                                <img src="images/home/privacy-gates.png" alt=""><!-- Image for desktop screens -->
                             </picture>
                             <div class="slider-content">
                                 <div class="content-box">
@@ -210,7 +210,7 @@
                     <ul>
 
                         <li>
-                            <img src="images/component-placeholder.jpg">
+                            <img src="images/home/wood-gates.png">
                             <div class="collection-overlay">
                                 <h4>Wood Gates</h4>
                                 <a href="sub-category.php">View Our Collection</a>
@@ -219,7 +219,7 @@
                         </li>
 
                         <li>
-                            <img src="images/component-placeholder.jpg">
+                            <img src="images/home/aluminium-gates-2.png">
                             <div class="collection-overlay">
                                 <h4>Aluminium Gates</h4>
                                 <a href="sub-category.php">View Our Collection</a>
@@ -228,7 +228,7 @@
                         </li>
 
                         <li>
-                            <img src="images/component-placeholder.jpg">
+                            <img src="images/home/composite-gates.png">
                             <div class="collection-overlay">
                                 <h4>Composite Gates</h4>
                                 <a href="sub-category.php">View Our Collection</a>
@@ -244,7 +244,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/home/our-process-img.png">
                 </div>
 
                 <div class="text-col">
@@ -267,7 +267,7 @@
             </div>
         </div><!-- end text and image col -->
 
-        <div class="information-callout" style="background-image: url('images/placeholder-img2.jpg">
+        <div class="information-callout" style="background-image: url('images/home/call-to-action-bg.png">
 
             <h4 class="callout-heading">Wrought Iron Gates and Railings</h4>
             <p>For more information about our range of beautiful wrought iron gates.</p>
@@ -282,25 +282,25 @@
 
             <ul class="multiple-images">
                 <li>
-                    <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
-                    <img src="images/component-placeholder-square.jpg">
+                    <a href="images/home/install-2.png" data-lightbox="installs"></a>
+                    <img src="images/home/install-2.png">
                 </li>
                 <li>
-                    <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
-                    <img src="images/component-placeholder-square.jpg">
+                    <a href="images/home/install-3.png" data-lightbox="installs"></a>
+                    <img src="images/home/install-3.png">
                 </li>
                 <li>
-                    <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
-                    <img src="images/component-placeholder-square.jpg">
+                    <a href="images/home/install-4.png" data-lightbox="installs"></a>
+                    <img src="images/home/install-4.png">
                 </li>
                 <li>
-                    <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
-                    <img src="images/component-placeholder-square.jpg">
+                    <a href="images/home/install-5.png" data-lightbox="installs"></a>
+                    <img src="images/home/install-5.png">
                 </li>
             </ul>
 
             <div class="single-image">
-                <img src="images/component-placeholder-square.jpg">
+                <img src="images/home/install-1.png">
             </div>
 
             <div class="install-btn">
@@ -313,7 +313,7 @@
             <div class="c-container">
 
                 <div class="video-col">
-                    <a href="//vimeo.com/1084537" data-lity><img src="images/placeholder-img1.jpg"></a>
+                    <a href="//vimeo.com/1084537" data-lity><img src="images/home/showroom-img.png"></a>
                 </div>
 
                 <div class="text-col">
@@ -341,11 +341,11 @@
             <div class="c-container">
 
                 <ul>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
+                    <li><img src="images/instagram/instagram-1.png"></li>
+                    <li><img src="images/instagram/instagram-2.png"></li>
+                    <li><img src="images/instagram/instagram-3.png"></li>
+                    <li><img src="images/instagram/instagram-4.png"></li>
+                    <li><img src="images/instagram/instagram-5.png"></li>
                 </ul>
 
                 <a href="#" class="orange-solid">Follow Us</a>

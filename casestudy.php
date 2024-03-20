@@ -5,8 +5,8 @@
         <div class="page-banner">
 
             <picture>
-                <source media="(max-width:767px)" srcset="images/placeholder-img1-mob.jpg"><!-- Image for mobile devices -->        
-                <img src="images/placeholder-img1.jpg" alt=""><!-- Image for desktop screens -->
+                <source media="(max-width:767px)" srcset="images/casestudies/case-study-img-mob.png"><!-- Image for mobile devices -->        
+                <img src="images/casestudies/case-study-img.png" alt=""><!-- Image for desktop screens -->
             </picture>
 
             <a href="#" class="view-btn">View All Photos</a>
@@ -43,10 +43,10 @@
 
                 <ul>
                     <li>
-                        <a href="#"><img src="images/component-placeholder-square.jpg"></a>
+                        <a href="#"><img src="images/casestudies/case-study-gallery-1.png"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/component-placeholder-square.jpg"></a>
+                        <a href="#"><img src="images/casestudies/case-study-gallery-2.png"></a>
                     </li>
                 </ul>
 
@@ -74,8 +74,8 @@
 
                 <a href="#">
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/casestudies/case-study-img-mob.png"><!-- Image for mobile devices -->        
+                        <img src="images/casestudies/case-study-video.png" alt=""><!-- Image for desktop screens -->
                     </picture>
                 </a>
 
@@ -86,7 +86,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/casestudies/case-study-vimg.png">
                 </div>
 
                 <div class="text-col">
@@ -137,7 +137,7 @@
 
                 <ul>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -145,7 +145,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -153,7 +153,7 @@
                         <h4>Case Study Name</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/casestudies/case-study-thumb.png">
                         <div class="collection-overlay">
                             <h4>Case Study Name</h4>
                             <a href="casestudy.php">View Case Study</a>
@@ -172,11 +172,11 @@
             <div class="c-container">
 
                 <ul>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
+                    <li><img src="images/instagram/instagram-1.png"></li>
+                    <li><img src="images/instagram/instagram-2.png"></li>
+                    <li><img src="images/instagram/instagram-3.png"></li>
+                    <li><img src="images/instagram/instagram-4.png"></li>
+                    <li><img src="images/instagram/instagram-5.png"></li>
                 </ul>
 
                 <a href="#" class="orange-solid">Follow Us</a>

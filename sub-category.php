@@ -7,8 +7,8 @@
             <ul>
                 <li>
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/sub-category/cranleigh.png"><!-- Image for mobile devices -->        
+                        <img src="images/sub-category/cranleigh.png" alt=""><!-- Image for desktop screens -->
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
@@ -20,8 +20,8 @@
                 </li>
                 <li>
                     <picture>
-                        <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
-                        <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
+                        <source media="(max-width:767px)" srcset="images/sub-category/cranleigh.png"><!-- Image for mobile devices -->        
+                        <img src="images/sub-category/cranleigh.png" alt=""><!-- Image for desktop screens -->
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
@@ -67,7 +67,7 @@
 
                 <ul>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Cranleigh</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -75,7 +75,7 @@
                         <h4>Cranleigh</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Hambledon</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -83,7 +83,7 @@
                         <h4>Hambledon</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Blenheim</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -91,7 +91,7 @@
                         <h4>Blenheim</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Warwick</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -99,7 +99,7 @@
                         <h4>Warwick</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Radleigh</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -107,7 +107,7 @@
                         <h4>Radleigh</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Langley</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -115,7 +115,7 @@
                         <h4>Langley</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Somerton</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -123,7 +123,7 @@
                         <h4>Somerton</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Salisbury</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -131,7 +131,7 @@
                         <h4>Salisbury</h4>
                     </li>
                     <li>
-                        <img src="images/component-placeholder-square.jpg">
+                        <img src="images/sub-category/cranleigh-thumb.png">
                         <div class="collection-overlay">
                             <h4>Huntington</h4>
                             <a href="gate.php">View Our Collection</a>
@@ -151,7 +151,7 @@
             <div class="c-container">
 
                 <div class="video-col">
-                    <a href="#"><img src="images/placeholder-img1.jpg"></a>
+                    <a href="//vimeo.com/1084537" data-lity><img src="images/home/showroom-img.png"></a>
                 </div>
 
                 <div class="text-col">
@@ -179,11 +179,11 @@
             <div class="c-container">
 
                 <ul>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
+                    <li><img src="images/instagram/instagram-1.png"></li>
+                    <li><img src="images/instagram/instagram-2.png"></li>
+                    <li><img src="images/instagram/instagram-3.png"></li>
+                    <li><img src="images/instagram/instagram-4.png"></li>
+                    <li><img src="images/instagram/instagram-5.png"></li>
                 </ul>
 
                 <a href="#" class="orange-solid">Follow Us</a>

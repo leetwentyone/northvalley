@@ -5,8 +5,8 @@
         <div class="page-banner">
 
             <picture>
-                <source media="(max-width:767px)" srcset="images/placeholder-img1-mob.jpg"><!-- Image for mobile devices -->        
-                <img src="images/placeholder-img1.jpg" alt=""><!-- Image for desktop screens -->
+                <source media="(max-width:767px)" srcset="images/perfect-gate/perfect-gates-hero-mob.png"><!-- Image for mobile devices -->        
+                <img src="images/perfect-gate/perfect-gates-hero.png" alt=""><!-- Image for desktop screens -->
             </picture>
 
         </div><!-- end page banner --> 
@@ -28,7 +28,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/perfect-gate/gate-opening-style-img.png">
                 </div>
 
                 <div class="text-col">
@@ -58,20 +58,20 @@
 
                 <ul class="multiple-images">
                     <li>
-                        <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
-                        <img src="images/component-placeholder-square.jpg">
+                        <a href="images/perfect-gate/gate-design-1.png" data-lightbox="installs"></a>
+                        <img src="images/perfect-gate/gate-design-1-thumb.png">
                     </li>
                     <li>
-                        <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
-                        <img src="images/component-placeholder-square.jpg">
+                        <a href="images/perfect-gate/gate-design-2.png" data-lightbox="installs"></a>
+                        <img src="images/perfect-gate/gate-design-2-thumb.png">
                     </li>
                     <li>
-                        <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
-                        <img src="images/component-placeholder-square.jpg">
+                        <a href="images/perfect-gate/gate-design-3.png" data-lightbox="installs"></a>
+                        <img src="images/perfect-gate/gate-design-3-thumb.png">
                     </li>
                     <li>
-                        <a href="images/component-placeholder-square.jpg" data-lightbox="installs"></a>
-                        <img src="images/component-placeholder-square.jpg">
+                        <a href="images/perfect-gate/gate-design-4.png" data-lightbox="installs"></a>
+                        <img src="images/perfect-gate/gate-design-4-thumb.png">
                     </li>
                 </ul>
 
@@ -221,7 +221,7 @@
             </div>
         </div><!-- end faqs -->
 
-        <div class="information-callout" style="background-image: url('images/placeholder-img2.jpg">
+        <div class="information-callout" style="background-image: url('images/home/call-to-action-bg.png">
 
             <h4 class="callout-heading">Wrought Iron Gates and Railings</h4>
             <p>For more information about our range of beautiful wrought iron gates.</p>
@@ -237,11 +237,11 @@
             <div class="c-container">
 
                 <ul>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
+                    <li><img src="images/instagram/instagram-1.png"></li>
+                    <li><img src="images/instagram/instagram-2.png"></li>
+                    <li><img src="images/instagram/instagram-3.png"></li>
+                    <li><img src="images/instagram/instagram-4.png"></li>
+                    <li><img src="images/instagram/instagram-5.png"></li>
                 </ul>
 
                 <a href="#" class="orange-solid">Follow Us</a>
