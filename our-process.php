@@ -5,8 +5,8 @@
         <div class="page-banner">
 
             <picture>
-                <source media="(max-width:767px)" srcset="images/placeholder-img1-mob.jpg"><!-- Image for mobile devices -->        
-                <img src="images/placeholder-img1.jpg" alt=""><!-- Image for desktop screens -->
+                <source media="(max-width:767px)" srcset="images/our-process/our-process-hero-mob.png"><!-- Image for mobile devices -->        
+                <img src="images/our-process/our-process-hero.png" alt=""><!-- Image for desktop screens -->
             </picture>
 
         </div><!-- end page banner -->
@@ -36,7 +36,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/our-process/design-process-img.png">
                 </div>
 
                 <div class="text-col">
@@ -62,8 +62,8 @@
 
             <a href="#">
                 <picture>
-                    <source media="(max-width:767px)" srcset="images/placeholder-img2-mob.jpg"><!-- Image for mobile devices -->        
-                    <img src="images/placeholder-img2.jpg" alt=""><!-- Image for desktop screens -->
+                    <source media="(max-width:767px)" srcset="images/our-process/process-video-img-mob.png"><!-- Image for mobile devices -->        
+                    <img src="images/our-process/process-video-img.png" alt=""><!-- Image for desktop screens -->
                 </picture>
             </a>
 
@@ -77,7 +77,7 @@
                 <ul>
                     <li>
                         <div class="video-col">
-                            <a href="#"><img src="images/placeholder-img1.jpg"></a>
+                            <a href="#"><img src="images/our-process/measuring-img.png"></a>
                             <p>Play Video</p>
                         </div>
                         <div class="text-col">
@@ -92,7 +92,7 @@
                     </li>
                     <li>
                         <div class="video-col">
-                            <a href="#"><img src="images/placeholder-img1.jpg"></a>
+                            <a href="#"><img src="images/our-process/cad-img.png"></a>
                             <p>Play Video</p>
                         </div>
                         <div class="text-col">
@@ -106,7 +106,7 @@
                     </li>
                     <li>
                         <div class="video-col">
-                            <a href="#"><img src="images/placeholder-img1.jpg"></a>
+                            <a href="#"><img src="images/our-process/fabrication-img.png"></a>
                             <p>Play Video</p>
                         </div>
                         <div class="text-col">
@@ -120,7 +120,7 @@
                     </li>
                     <li>
                         <div class="video-col">
-                            <a href="#"><img src="images/placeholder-img1.jpg"></a>
+                            <a href="#"><img src="images/our-process/hot-dip-galvanising-img.png"></a>
                             <p>Play Video</p>
                         </div>
                         <div class="text-col">
@@ -142,7 +142,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/our-process/painting-img.png">
                 </div>
 
                 <div class="text-col">
@@ -166,7 +166,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/our-process/finishing-img.png">
                 </div>
 
                 <div class="text-col">
@@ -190,7 +190,7 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/our-process/installation-img.png">
                 </div>
 
                 <div class="text-col">
@@ -257,11 +257,11 @@
             <div class="c-container">
 
                 <ul>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
+                    <li><img src="images/instagram/instagram-1.png"></li>
+                    <li><img src="images/instagram/instagram-2.png"></li>
+                    <li><img src="images/instagram/instagram-3.png"></li>
+                    <li><img src="images/instagram/instagram-4.png"></li>
+                    <li><img src="images/instagram/instagram-5.png"></li>
                 </ul>
 
                 <a href="#" class="orange-solid">Follow Us</a>

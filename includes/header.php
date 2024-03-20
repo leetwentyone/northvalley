@@ -60,19 +60,19 @@
                   </div> 
                   <ul class="menu-collection">
                     <li>
-                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <a href="sub-category.php"><img src="images/home/wood-gates.png"></a>
                       <p><a href="sub-category.php">Ultimate Collection</a></p>
                     </li>
                     <li>
-                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <a href="sub-category.php"><img src="images/home/estate-gates.png"></a>
                       <p><a href="sub-category.php">Estate Gates</a></p>
                     </li>
                     <li>
-                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <a href="sub-category.php"><img src="images/home/aluminium-gates.png"></a>
                       <p><a href="sub-category.php">Small Driveway Gates</a></p>
                     </li>
                     <li>
-                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <a href="sub-category.php"><img src="images/home/composite-gates.png"></a>
                       <p><a href="sub-category.php">Side &amp; Garden Gates</a></p>
                     </li>
                 </div>
@@ -112,8 +112,8 @@
             <li><a href="category.php">New Installs</a></li>
           </ul>
           <ul>
-            <li><a href="#" class="search-toggle"><img src="images/search-white.png"></a></li>
-            <li><a href="#" class="toggle-menu"><img src="images/menu-white.png"></a></li>
+            <li><a href="#" class="search-toggle"><img src="images/icons/search-icon.png"></a></li>
+            <li><a href="#" class="toggle-menu"><img src="images/icons/menu-icon.png"></a></li>
           </ul>
         </div>
 

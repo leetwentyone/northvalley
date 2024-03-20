@@ -12,9 +12,9 @@
                 </form>
 
                 <ul>
-                    <li><a href="#">F</a></li>
-                    <li><a href="#">IG</a></li>
-                    <li><a href="#">X</a></li>
+                    <li><a href="#"><img src="images/newsletter/facebook-icon.png"></a></li>
+                    <li><a href="#"><img src="images/newsletter/instagram-icon.png"></a></li>
+                    <li><a href="#"><img src="images/newsletter/x-icon.png"></a></li>
                 </ul>
 
             </div>
@@ -83,7 +83,7 @@
 
             </div>
 
-            <a class="scrollup" href="#top">Top</a>
+            <a class="scrollup" href="#top"><img src="images/arrows/up-arrow.png"></a>
 
         </div>
 
