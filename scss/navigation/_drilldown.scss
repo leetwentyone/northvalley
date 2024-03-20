@@ -67,15 +67,14 @@ body.menu-active {
         text-align: right;
         color: $copy;
         padding: 0;
-        background-image: url('images/close.png');
-		background-repeat: no-repeat;
-		background-size: 15px;
-		background-position: top 50% right 35px;
 
         @include breakpoint(desktop) {
             font-size: 16px;
             line-height: 16px;
-            background-position: top 50% right 45px;
+        }
+
+        img {
+            max-width: 20px;
         }
     }
 }
@@ -135,7 +134,7 @@ body.menu-opened {
         a {
             padding: 5px 15px;
             display: block;
-            color: $black;
+            color: $darkblue;
             font-family: $graphikreg;
             line-height: 26px;
             font-size: 13px;
@@ -193,7 +192,7 @@ body.menu-opened {
         height: 37px;
         float: right;
         line-height: 45px;
-        background-image: url('images/dark-arrow.png');
+        background-image: url('images/arrows/next-orange.png');
         background-repeat: no-repeat;
         background-size: 15px;
         background-position: center;
@@ -212,7 +211,7 @@ body.menu-opened {
             height: 37px;
             float: right;
             line-height: 45px;
-            background-image: url('images/dark-arrow.png');
+            background-image: url('images/arrows/next-grey.png');
             background-repeat: no-repeat;
             background-size: 15px;
             background-position: center;
@@ -383,14 +382,44 @@ body.menu-opened {
     }
 }
 
+.socials {
+    display: block;
+    border-top: 1px solid $darkgrey;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+    p {
+        margin-bottom: 10px;
+        font-family: $graphikmedium;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        width: 30px;
+
+        &:not(:last-of-type) {
+            margin-right: 5px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
 .bottom-links {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    border-top: 1px solid $darkgrey;
-    padding-top: 20px;
-    margin-top: 20px;
+    padding-left: 15px;
 
     .orange-solid {
         margin-top: 20px;

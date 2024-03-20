@@ -77,6 +77,11 @@
                     line-height: 26px;
                 }
             }
+
+            @include breakpoint(desktop) {
+                font-size: 22px;
+                line-height: 30px;
+            }
         }
 
         img {
@@ -135,6 +140,11 @@
             font-size: 20px;
             line-height: 26px;
         }
+
+        @include breakpoint(desktop) {
+            font-size: 22px;
+            line-height: 30px;
+        }
     }
 
     a {
@@ -143,6 +153,8 @@
         z-index: 10;
         text-decoration: underline;
         font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
 
         &:hover {
             text-decoration: none;

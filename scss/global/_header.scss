@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: $darkgrey;
+    background-color: $darkblue;
     z-index: 100;
 
     @include breakpoint(laptop) {
@@ -61,6 +61,7 @@
         display: flex;
         align-items: center;
         font-weight: 600;
+        font-family: $graphikmedium;
         font-size: 12px;
         line-height: 12px;
         color: $white!important;
@@ -68,11 +69,6 @@
         @include breakpoint(desktop) {
             font-size: 14px;
             line-height: 14px;
-        }
-
-        @include breakpoint(xldesktop) {
-            font-size: 16px;
-            line-height: 16px;
         }
 
         &:not(:first-of-type) {
@@ -105,8 +101,9 @@
 
         &:last-of-type {
             background-color: $orange;
-            font-family: $graphikreg;
+            font-family: $graphikmedium;
             padding: 15px 20px;
+            transition: all .3s ease;
 
             @include breakpoint(desktop) {
                 padding: 20px 20px;
@@ -114,6 +111,10 @@
             
             &:before {
                 display: none;
+            }
+
+            &:hover {
+                background-color: $darkestblue;
             }
         }
 
@@ -192,6 +193,7 @@
                     display: block;
                     padding: 10px 20px 20px 5px;
                     color: $white;
+                    font-family: $graphikmedium;
                     font-size: 12px;
                     line-height: 12px;
 
@@ -201,8 +203,6 @@
                     }
 
                     @include breakpoint(xldesktop) {
-                        font-size: 16px;
-                        line-height: 16px;
                         padding: 10px 30px 20px 5px;
                     }
 
@@ -227,7 +227,7 @@
                         }
 
                         @include breakpoint(xldesktop) {
-                            background-size: 15px;
+                            background-size: 12px;
                             background-position: top 11px right 10px;
                         }
                     }

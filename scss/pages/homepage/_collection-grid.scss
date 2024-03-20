@@ -78,7 +78,7 @@
                     transition: all .3s ease;
                     opacity: 1;
                     z-index: 5;
-                    font-size: 22px;
+                    font-size: 20px;
                     line-height: 28px;
                 }
             }
@@ -111,9 +111,13 @@
             padding-left: 20px;
 
             h4 {
-                font-size: 22px;
+                font-size: 20px;
                 line-height: 28px;
             }
         }
+    }
+
+    .slide-title {
+        font-size: 22px;
     }
 }
