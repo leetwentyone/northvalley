@@ -12,7 +12,7 @@
             <div class="hero-overlay">
                 <div class="overlay-content">
                     <p>North Valley Forge</p>
-                    <h1>UK's premier Electric <br>Gate Specialist</h1>
+                    <div class="overlay-title">UK's premier Electric <br>Gate Specialist</div>
                     <a href="category.php" class="orange-solid">Explore Our Iron Gates</a>
                 </div>
             </div><!-- end hero overlay -->
@@ -24,7 +24,7 @@
         <div class="textblock">
             <div class="c-container">
 
-                <h2>Quality wrought Iron Electric Gates &amp; Railings</h2>
+                <h1>Quality wrought Iron Electric Gates &amp; Railings</h1>
                 <p>
                     North Valley Forge is one of the premier wrought iron electric gate & railing manufacturing companies in the UK and we have been 
                     installing superior ironwork nationwide for over 30 years.
@@ -47,7 +47,7 @@
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
-                            <h3 class="slide-title">Ultimate Collection</h3>
+                            <h2 class="slide-title">Ultimate Collection</h2>
                             <p>Anything else is just a gate...</p>
                             <a href="sub-category.php" class="orange-solid">View Collection</a>
                         </div>
@@ -60,7 +60,7 @@
                     </picture>
                     <div class="slider-content">
                         <div class="content-box">
-                            <h3 class="slide-title">Slide Two</h3>
+                            <h2 class="slide-title">Slide Two</h2>
                             <p>Add your text here...</p>
                             <a href="#" class="orange-solid">Button Two</a>
                         </div>
@@ -199,8 +199,8 @@
                     </ul>
 
                     <div class="slider-nav">
-                        <a class="prev-slide"><img src="images/dark-arrow2.png"></a>
-                        <a class="next-slide"><img src="images/dark-arrow.png"></a>
+                        <a class="prev-slide"><img src="images/arrows/previous-grey.png"></a>
+                        <a class="next-slide"><img src="images/arrows/next-grey.png"></a>
                     </div>
 
                 </div>
