@@ -3,7 +3,7 @@ p {
     line-height: 20px;
     color: $copy;
     margin-bottom: 30px;
-    font-family: $archiareg;
+    font-family: $graphikreg;
 
     @include breakpoint(desktop) {
         font-size: 16px;

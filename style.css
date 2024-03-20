@@ -35,23 +35,23 @@ table {
 /* Extra Extra Large Desktop Screens */
 /* Maximum width of our site content */
 @font-face {
-  font-family: 'archiaregular';
-  src: url("fonts/archia-regular-webfont.eot");
-  src: url("fonts/archia-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/archia-regular-webfont.woff2") format("woff2"), url("fonts/archia-regular-webfont.woff") format("woff"), url("fonts/archia-regular-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'GraphikLCGSemibold';
+  src: url("fonts/GraphikLCGSemibold.eot");
+  src: url("fonts/GraphikLCGSemibold.eot") format("embedded-opentype"), url("fonts/GraphikLCGSemibold.woff2") format("woff2"), url("fonts/GraphikLCGSemibold.woff") format("woff"), url("fonts/GraphikLCGSemibold.ttf") format("truetype"), url("fonts/GraphikLCGSemibold.svg#GraphikLCGSemibold") format("svg"); }
 @font-face {
-  font-family: 'archiabold';
-  src: url("fonts/archia-bold-webfont.eot");
-  src: url("fonts/archia-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/archia-bold-webfont.woff2") format("woff2"), url("fonts/archia-bold-webfont.woff") format("woff"), url("fonts/archia-bold-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'GraphikLCGRegular';
+  src: url("fonts/GraphikLCGRegular.eot");
+  src: url("fonts/GraphikLCGRegular.eot") format("embedded-opentype"), url("fonts/GraphikLCGRegular.woff2") format("woff2"), url("fonts/GraphikLCGRegular.woff") format("woff"), url("fonts/GraphikLCGRegular.ttf") format("truetype"), url("fonts/GraphikLCGRegular.svg#GraphikLCGRegular") format("svg"); }
+@font-face {
+  font-family: 'GraphikLCGMedium';
+  src: url("fonts/GraphikLCGMedium.eot");
+  src: url("fonts/GraphikLCGMedium.eot") format("embedded-opentype"), url("fonts/GraphikLCGMedium.woff2") format("woff2"), url("fonts/GraphikLCGMedium.woff") format("woff"), url("fonts/GraphikLCGMedium.ttf") format("truetype"), url("fonts/GraphikLCGMedium.svg#GraphikLCGMedium") format("svg"); }
 p {
   font-size: 14px;
   line-height: 20px;
   color: #495057;
   margin-bottom: 30px;
-  font-family: "archiaregular"; }
+  font-family: "GraphikLCGRegular"; }
   @media (min-width: 1152px) {
     p {
       font-size: 16px;
@@ -63,7 +63,7 @@ p {
       color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "archiabold";
+  font-family: "GraphikLCGRegular";
   font-weight: 600;
   color: #495057;
   font-size: 24px;
@@ -302,7 +302,7 @@ tbody td:last-of-type {
   border-width: 1px;
   border-style: solid;
   padding: 15px 25px;
-  font-family: "archiaregular";
+  font-family: "GraphikLCGRegular";
   font-size: 12px;
   line-height: 12px;
   font-weight: 600;
@@ -528,7 +528,7 @@ body.menu-opened {
     padding: 5px 15px;
     display: block;
     color: #000;
-    font-family: "archiaregular";
+    font-family: "GraphikLCGRegular";
     line-height: 26px;
     font-size: 13px;
     text-transform: capitalize; }
@@ -605,7 +605,7 @@ body.menu-opened {
   line-height: 55px;
   text-align: left;
   padding: 0 0 0 15px;
-  font-family: "archiabold";
+  font-family: "GraphikLCGRegular";
   font-size: 14px;
   cursor: pointer;
   color: #000;
@@ -967,7 +967,7 @@ iframe {
       margin-right: 10px; }
     .top-links a:last-of-type {
       background-color: #f3722c;
-      font-family: "archiaregular";
+      font-family: "GraphikLCGRegular";
       padding: 15px 20px; }
       @media (min-width: 1152px) {
         .top-links a:last-of-type {
@@ -1063,7 +1063,7 @@ iframe {
       background-color: #f3722c;
       text-align: center; }
       .mob-actions li + li a {
-        font-family: "archiaregular"; }
+        font-family: "GraphikLCGRegular"; }
     .mob-actions li a {
       display: block;
       width: 100%;
@@ -1174,7 +1174,7 @@ iframe {
     .newsletter form button[type="submit"] {
       background-color: #f3722c;
       color: #fff;
-      font-family: "archiabold";
+      font-family: "GraphikLCGRegular";
       border: 0;
       height: 50px;
       width: 90px; }

@@ -1,26 +1,34 @@
 @font-face {
-    font-family: 'archiaregular';
-    src: url('fonts/archia-regular-webfont.eot');
-    src: url('fonts/archia-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/archia-regular-webfont.woff2') format('woff2'),
-         url('fonts/archia-regular-webfont.woff') format('woff'),
-         url('fonts/archia-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'GraphikLCGSemibold';
+    src: url('fonts/GraphikLCGSemibold.eot');
+    src: url('fonts/GraphikLCGSemibold.eot') format('embedded-opentype'),
+         url('fonts/GraphikLCGSemibold.woff2') format('woff2'),
+         url('fonts/GraphikLCGSemibold.woff') format('woff'),
+         url('fonts/GraphikLCGSemibold.ttf') format('truetype'),
+         url('fonts/GraphikLCGSemibold.svg#GraphikLCGSemibold') format('svg');
 }
 
 @font-face {
-    font-family: 'archiabold';
-    src: url('fonts/archia-bold-webfont.eot');
-    src: url('fonts/archia-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/archia-bold-webfont.woff2') format('woff2'),
-         url('fonts/archia-bold-webfont.woff') format('woff'),
-         url('fonts/archia-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'GraphikLCGRegular';
+    src: url('fonts/GraphikLCGRegular.eot');
+    src: url('fonts/GraphikLCGRegular.eot') format('embedded-opentype'),
+         url('fonts/GraphikLCGRegular.woff2') format('woff2'),
+         url('fonts/GraphikLCGRegular.woff') format('woff'),
+         url('fonts/GraphikLCGRegular.ttf') format('truetype'),
+         url('fonts/GraphikLCGRegular.svg#GraphikLCGRegular') format('svg');
+}
 
+@font-face {
+    font-family: 'GraphikLCGMedium';
+    src: url('fonts/GraphikLCGMedium.eot');
+    src: url('fonts/GraphikLCGMedium.eot') format('embedded-opentype'),
+         url('fonts/GraphikLCGMedium.woff2') format('woff2'),
+         url('fonts/GraphikLCGMedium.woff') format('woff'),
+         url('fonts/GraphikLCGMedium.ttf') format('truetype'),
+         url('fonts/GraphikLCGMedium.svg#GraphikLCGMedium') format('svg');
 }
 
 $global-font : sans-serif;
-$archiareg: 'archiaregular';
-$archiabold: 'archiabold';
+$graphikreg: 'GraphikLCGRegular';
+$graphikbold: 'GraphikLCGSemibold';
+$graphikmedium: 'GraphikLCGMedium';
