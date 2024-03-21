@@ -80,12 +80,17 @@
             background-color: $orange;
             color: $white;
             font-family: $graphikmedium;
+            transition: all .3s ease;
             border: 0;
             height: 50px;
             width: 90px;
 
             @include breakpoint(tablet) {
                 width: 150px;
+            }
+
+            &:hover {
+                background-color: $darkestblue;
             }
         }
     }

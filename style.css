@@ -1201,12 +1201,15 @@ iframe {
       background-color: #E6562B;
       color: #fff;
       font-family: "GraphikLCGMedium";
+      transition: all .3s ease;
       border: 0;
       height: 50px;
       width: 90px; }
       @media (min-width: 768px) {
         .newsletter form button[type="submit"] {
           width: 150px; } }
+      .newsletter form button[type="submit"]:hover {
+        background-color: #222938; }
   .newsletter ul {
     display: flex;
     align-items: center;
@@ -2907,14 +2910,14 @@ body.lb-disable-scrolling {
       margin: 0 5px;
       cursor: pointer; }
   .gallery-slider .slick-prev {
-    background-image: url("images/dark-arrow2.png");
+    background-image: url("images/arrows/previous-grey.png");
     background-size: 25px;
     background-color: transparent; }
     @media (max-width: 767px) {
       .gallery-slider .slick-prev {
         left: 10px; } }
   .gallery-slider .slick-next {
-    background-image: url("images/dark-arrow.png");
+    background-image: url("images/arrows/next-grey.png");
     background-size: 25px;
     background-color: transparent; }
     @media (max-width: 767px) {
