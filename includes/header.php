@@ -75,6 +75,7 @@
                       <a href="sub-category.php"><img src="images/home/composite-gates.png"></a>
                       <p><a href="sub-category.php">Side &amp; Garden Gates</a></p>
                     </li>
+                  </ul>
                 </div>
               </div>
             </li>
@@ -88,21 +89,22 @@
                   </div> 
                   <ul class="menu-collection">
                     <li>
-                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
-                      <p><a href="sub-category.php">Small Aluminium Gates</a></p>
+                      <a href="sub-category.php"><img src="images/home/wood-gates.png"></a>
+                      <p><a href="sub-category.php">Ultimate Collection</a></p>
                     </li>
                     <li>
-                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
-                      <p><a href="sub-category.php">Industrial Aluminium Gates</a></p>
+                      <a href="sub-category.php"><img src="images/home/estate-gates.png"></a>
+                      <p><a href="sub-category.php">Estate Gates</a></p>
                     </li>
                     <li>
-                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
-                      <p><a href="sub-category.php">Estate Aluminium Gates</a></p>
+                      <a href="sub-category.php"><img src="images/home/aluminium-gates.png"></a>
+                      <p><a href="sub-category.php">Small Driveway Gates</a></p>
                     </li>
                     <li>
-                      <a href="sub-category.php"><img src="images/component-placeholder-square.jpg"></a>
+                      <a href="sub-category.php"><img src="images/home/composite-gates.png"></a>
                       <p><a href="sub-category.php">Side &amp; Garden Gates</a></p>
                     </li>
+                  </ul>
                 </div>
               </div>
             </li>

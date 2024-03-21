@@ -5,8 +5,8 @@
         <div class="page-banner">
 
             <picture>
-                <source media="(max-width:767px)" srcset="images/placeholder-img1-mob.jpg"><!-- Image for mobile devices -->        
-                <img src="images/placeholder-img1.jpg" alt=""><!-- Image for desktop screens -->
+                <source media="(max-width:767px)" srcset="images/sub-category/cranleigh-mob.png"><!-- Image for mobile devices -->        
+                <img src="images/sub-category/cranleigh.png" alt=""><!-- Image for desktop screens -->
             </picture>
 
             <a class="view-btn view-photos">View All Photos</a>
@@ -37,19 +37,19 @@
                 <h3>Cranleigh Gallery</h3>
 
                 <ul class="main">
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-1.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-2.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-3.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-4.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-5.png"></li>
                 </ul>
 
                 <ul class="thumbnails">
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-1.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-2.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-3.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-4.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-5.png"></li>
                 </ul>
 
             </div>
@@ -59,7 +59,7 @@
             <div class="c-container">
 
                 <div class="video-col">
-                    <a href="//vimeo.com/1084537" data-lity><img src="images/placeholder-img1.jpg"></a>
+                    <a href="//vimeo.com/1084537" data-lity><img src="images/our-process/process-video-img.png"></a>
                 </div>
 
                 <div class="text-col">
@@ -174,11 +174,11 @@
             <div class="c-container">
 
                 <ul>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
+                    <li><img src="images/instagram/instagram-1.png"></li>
+                    <li><img src="images/instagram/instagram-2.png"></li>
+                    <li><img src="images/instagram/instagram-3.png"></li>
+                    <li><img src="images/instagram/instagram-4.png"></li>
+                    <li><img src="images/instagram/instagram-5.png"></li>
                 </ul>
 
                 <a href="#" class="orange-solid">Follow Us</a>

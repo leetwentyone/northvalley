@@ -5,8 +5,8 @@
         <div class="page-banner">
 
             <picture>
-                <source media="(max-width:767px)" srcset="images/placeholder-img1-mob.jpg"><!-- Image for mobile devices -->        
-                <img src="images/placeholder-img1.jpg" alt=""><!-- Image for desktop screens -->
+                <source media="(max-width:767px)" srcset="images/home/ultimate-collection-mob.png"><!-- Image for mobile devices -->        
+                <img src="images/home/ultimate-collection.png" alt=""><!-- Image for desktop screens -->
             </picture>
 
         </div><!-- end page banner --> 
@@ -52,25 +52,25 @@
                 <h3>See inside our showroom</h3>
 
                 <ul class="main">
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-1.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-2.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-3.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-4.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-5.png"></li>
                 </ul>
 
                 <ul class="thumbnails">
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
-                    <li><img src="images/placeholder-img1.jpg"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-1.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-2.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-3.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-4.png"></li>
+                    <li><img src="images/sub-category/cranleigh-gallery-5.png"></li>
                 </ul>
 
             </div>
         </div><!-- end gallery slider -->
 
-        <div class="information-callout" style="background-image: url('images/placeholder-img2.jpg">
+        <div class="information-callout" style="background-image: url('images/home/call-to-action-bg.png">
 
             <h4 class="callout-heading">Wrought Iron Gates and Railings</h4>
             <p>For more information about our range of beautiful wrought iron gates.</p>
@@ -83,23 +83,16 @@
             <div class="c-container">
 
                 <div class="image-col">
-                    <img src="images/placeholder-img1.jpg">
+                    <img src="images/home/showroom-img.png">
                 </div>
 
                 <div class="text-col">
 
                     <h4>Lancashire showroom</h4>
                     <p>
-                        Duis erat odio, mollis at imperdiet quis, laoreet et elit. Nunc sagittis et tortor vehicula pharetra. 
-                        Cras aliquam eros eget enim auctor, tincidunt hendrerit velit sagittis. Mauris at mauris at magna consectetur semper.
-                        In hac habitasse platea dictumst. Aliquam erat volutpat. Vestibulum vel orci at tellus iaculis dignissim nec ut enim. 
-                        Mauris lobortis rutrum felis eget mollis. 
-                    </p>
-
-                    <p>
-                        Mauris venenatis, dui sit amet suscipit porta, felis leo mollis massa, vel interdum arcu lacus sit amet eros. 
-                        Aliquam erat volutpat. Sed ultricies augue at erat volutpat sollicitudin. Aenean sit amet nunc diam. 
-                        Donec non risus vel felis molestie interdum.
+                        Nelson in Lancashire is the home to Europes largest electric gate showroom. We have a large selection of our gates & railings on 
+                        display which are automated using a variety of different methods to give you a real feel for the quality of our work along with how 
+                        automation might work for you. 
                     </p>
 
                 </div>
@@ -114,11 +107,11 @@
             <div class="c-container">
 
                 <ul>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
-                    <li><img src="images/component-placeholder-square.jpg"></li>
+                    <li><img src="images/instagram/instagram-1.png"></li>
+                    <li><img src="images/instagram/instagram-2.png"></li>
+                    <li><img src="images/instagram/instagram-3.png"></li>
+                    <li><img src="images/instagram/instagram-4.png"></li>
+                    <li><img src="images/instagram/instagram-5.png"></li>
                 </ul>
 
                 <a href="#" class="orange-solid">Follow Us</a>

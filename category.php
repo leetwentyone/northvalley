@@ -34,8 +34,8 @@
             </ul>
 
             <div class="slider-nav">
-                <a class="prev-slide"><img src="images/dark-arrow2.png"></a>
-                <a class="next-slide"><img src="images/dark-arrow.png"></a>
+                <a class="prev-slide"><img src="images/arrows/previous-grey.png"></a>
+                <a class="next-slide"><img src="images/arrows/next-grey.png"></a>
             </div>          
 
         </div><!-- end slider -->
