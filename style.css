@@ -3566,7 +3566,10 @@ article {
       left: 0;
       width: 30px;
       height: 30px;
-      background-color: #eee; }
+      background-image: url("images/icons/location.png");
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center; }
   .getintouch a[href^="tel"] {
     display: inline-flex;
     align-items: center;
@@ -3583,7 +3586,10 @@ article {
       width: 30px;
       height: 30px;
       margin-right: 10px;
-      background-color: #eee; }
+      background-image: url("images/icons/call-orange.png");
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center; }
   .getintouch a[href^="mailto"] {
     display: inline-flex;
     align-items: center;
@@ -3601,7 +3607,10 @@ article {
       width: 30px;
       height: 30px;
       margin-right: 10px;
-      background-color: #eee; }
+      background-image: url("images/icons/email-orange.png");
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center; }
 
 .request {
   background-color: #F7F6F2;
